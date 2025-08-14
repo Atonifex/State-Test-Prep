@@ -1,0 +1,71 @@
+{
+    "questions": [
+        {
+            "skill": "Linear Word Problems",
+            "difficulty": "Medium",
+            "question": "A rental shop charges a fixed deposit plus a daily rate for renting an electric scooter. Renting a scooter for 3 days costs \\$$81$, and renting the same scooter for 6 days costs \\$$138$.\n\nBased on this pricing structure, what is the total cost, in dollars, for renting the scooter for 10 days?",
+            "choices": [
+              "A) 190",
+              "B) 200",
+              "C) 210",
+              "D) 214"
+            ],
+            "answer": "D",
+            "explanation": "We want to find the total cost for renting the scooter for 10 days based on the given information.\n\n\nStep 1:\nLet the deposit be $d$ and the daily rate be $r$. From the costs given:\n\n$\nd + 3r = 81 \nd + 6r = 138\n$\n\n\nStep 2:\nSubtract the first equation from the second:\n\n$\n(d + 6r) - (d + 3r) = 138 - 81 \n3r = 57 \nr = 19\n$\n\n\nStep 3:\nUse $r = 19$ to find $d$:\n\n$\nd + 3 \\times 19 = 81 \nd + 57 = 81 \nd = 24\n$\n\n\nStep 4:\nFor 10 days, the cost is $d + 10r$:\n\n$\n24 + 10 \\times 19 = 24 + 190 = 214\n$\n\nHence, the total cost is $\\$214$, corresponding to choice D.\n\n\nNote that choice A might result from neglecting the fixed deposit, choice B could come from miscalculating the daily rate, and choice C may occur if there is an arithmetic error when multiplying the daily rate by 10.",
+            "topic": "Renting an electric scooter",
+            "total_score": 27,
+            "constructive_feedback": "The question is well-designed, clear, and closely aligned with SAT standards for medium-level linear word problems. It effectively translates a real-world scenario into a system of linear equations, and the distractor choices are plausible and reflect common errors. The explanation is detailed and logically organized, guiding students through each step of the process. To reach perfection, consider enhancing the formatting by ensuring each step is separated with clear double line breaks, and double-check that all LaTeX expressions consistently use the required two backslashes when inside math expressions.",
+            "difficulty_feedback": "This question appropriately matches its medium difficulty level. It requires students to define variables, set up a system of two linear equations, eliminate one variable, and substitute back to find the deposit before applying the results to a new situation—all of which aligns with the intended moderate computational and reasoning challenge for SAT practice.",
+            "topic_list_name": "N/A - Math Question",
+            "topic_index": -1
+        },
+        {
+            "skill": "Geometry",
+            "difficulty": "Medium",
+            "question": "Cylinder A has a volume of $36\\pi$ cubic units and a height of $4$ units. Cylinder B has a radius that is twice the radius of Cylinder A, and a height that is half the height of Cylinder A.The volume of a cylinder is given by the formula $V = \\pi r^2 h$, where $r$ is the radius of the circular base and $h$ is the height of the cylinder.\n\nWhat are the radius and height of Cylinder B?",
+            "choices": [
+            "A) Radius = $1.5$ units, Height = $8$ units",
+            "B) Radius = $3$ units, Height = $2$ units",
+            "C) Radius = $6$ units, Height = $2$ units",
+            "D) Radius = $6$ units, Height = $8$ units"
+            ],
+            "answer": "C",
+            "explanation": "This problem requires us to first find the dimensions of Cylinder A, and then use that information to determine the dimensions of Cylinder B.\nThe formula for the volume of a cylinder is $V = \\pi r^2 h$.\n\n**Step 1: Find the radius of Cylinder A ($r_A$).**\nGiven for Cylinder A:\nVolume ($V_A$) = $36\\pi$ cubic units\nHeight ($h_A$) = $4$ units\n\nUsing the volume formula: $V_A = \\pi r_A^2 h_A$\n$36\\pi = \\pi r_A^2 \\times 4$\n\nDivide by $4\\pi$:\n$\\frac{36\\pi}{4\\pi} = r_A^2$\n$9 = r_A^2$\n$r_A = \\sqrt{9} = 3$ units.\nSo, Cylinder A has a radius of $3$ units and a height of $4$ units.\n\n**Step 2: Determine the dimensions of Cylinder B.**\nRadius of Cylinder B ($r_B$) is twice the radius of Cylinder A:\n$r_B = 2 \\times r_A = 2 \\times 3 = 6$ units.\n\nHeight of Cylinder B ($h_B$) is half the height of Cylinder A:\n$h_B = \\frac{1}{2} \\times h_A = \\frac{1}{2} \\times 4 = 2$ units.\n\nTherefore, Cylinder B has a radius of $6$ units and a height of $2$ units.",
+            "topic": "Volume of a cylinder, proportional reasoning"
+        },
+        {
+            "skill": "Word Choice",
+            "difficulty": "Medium",
+            "question": "In many emerging smart cities, streetlights can automatically adjust brightness to conserve energy during off-peak hours. Such technology underscores the advances being made in urban infrastructure. These energy-saving solutions reflect the ________ transformation of lighting systems that respond to the environment.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+            "choices": [
+                "A) effervescent",
+                "B) assiduous",
+                "C) limitless",
+                "D) adaptive"
+            ],
+            "answer": "D",
+            "explanation": "Choice D is the best answer because \"adaptive\" accurately describes a system capable of responding to fluctuations in its environment, which aligns with the description of streetlights adjusting brightness to conserve energy. Choice A (\"effervescent\") means bubbly or vivacious, which is inappropriate for describing technological systems. Choice B (\"assiduous\") means showing great care and perseverance, which might describe the engineers who designed the system but not the transformation itself. Choice C (\"limitless\") suggests something without bounds or restrictions, which contradicts the specific, measured adjustments described in the passage.",
+            "topic": "The future of smart cities and urban development",
+            "total_score": 25,
+            "constructive_feedback": "The question is well-aligned with SAT word choice standards; it provides a clear context where the clue (automatic adjustment of brightness) logically leads to the answer 'adaptive.' The answer choices include sophisticated vocabulary that requires students to understand precise word meanings and how they apply to technological contexts. The distractors are plausible enough to require careful consideration, making this an appropriate medium-difficulty question.",
+            "difficulty_feedback": "The question fits a Medium-level difficulty well. The vocabulary choices include advanced terms like 'effervescent' and 'assiduous' that many students may need to carefully consider. The context provides sufficient clues to guide students toward the correct answer without making it too obvious, which is appropriate for the medium difficulty level.",
+            "topic_list_name": "businessTechnologyTopics",
+            "topic_index": 44
+        },
+        {
+            "skill": "Punctuation",
+            "difficulty": "Medium",
+            "question": "Artists inspired by Surrealism often employed symbolic elements—such as melting clocks or floating objects ______ these unconventional images challenged viewers' perceptions of reality and invited them to explore the subconscious mind.\n\nWhich choice accurately completes the text according to Standard English conventions?",
+            "choices": [
+            "A) —in their work, because these",
+            "B) —in their work. These",
+            "C) in their work. These",
+            "D) , in their work, as these"
+            ],
+            "answer": "B",
+            "explanation": "Choice B is correct because a second 'em dash' is needed to close the non-essential clause 'such as melting clocks or floating objects' and a semicolon is the appropriate punctuation to join two closely related independent clauses without a coordinating conjunction. Both 'Artists inspired by Surrealism often employed symbolic elements in their work' and 'these unconventional images challenged viewers' perceptions of reality' are complete, independent clauses. Choice A incorrectly uses 'because,' which would make the second clause dependent rather than independent. Choice C lacks the matching em dash and creates a comma splice by joining two independent clauses with only a comma. Choice D incorrectly uses 'as,' which creates a dependent clause when the second part should remain independent."
+        }
+
+
+    ]
+}
