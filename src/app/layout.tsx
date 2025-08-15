@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { UserProvider } from "@/contexts/UserContext";
 import { AssessmentProvider } from "@/contexts/AssessmentContext";
 import { LoginButton } from "@/components/LoginButton";
 import Link from "next/link";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
 });
 
@@ -26,20 +26,28 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased font-sans`}>
         <UserProvider>
           <AssessmentProvider>
-            <header className="w-full border-b bg-white">
-              <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-                <Link href="/" className="font-semibold">State Test Prep</Link>
-                <nav className="flex items-center gap-4 text-sm">
-                  <Link href="/select" className="hover:underline">Select</Link>
-                  <Link href="/standards" className="hover:underline">Standards</Link>
-                </nav>
-                <LoginButton />
-              </div>
-            </header>
-            <main className="mx-auto max-w-6xl px-4 py-6">{children}</main>
+            <div className="min-h-screen bg-gray-50">
+              <header className="bg-white border-b px-4 py-3">
+                <div className="max-w-6xl mx-auto flex justify-between items-center">
+                  <div className="flex items-center gap-4">
+                    <Link href="/" className="text-xl font-semibold text-blue-600">
+                      State Test Prep
+                    </Link>
+                    <nav className="flex gap-3 text-sm">
+                      <Link href="/select" className="text-gray-600 hover:text-gray-900">Select</Link>
+                      <Link href="/standards" className="text-gray-600 hover:text-gray-900">Standards</Link>
+                    </nav>
+                  </div>
+                  <LoginButton />
+                </div>
+              </header>
+              <main className="max-w-6xl mx-auto px-4 py-6">
+                {children}
+              </main>
+            </div>
           </AssessmentProvider>
         </UserProvider>
       </body>
