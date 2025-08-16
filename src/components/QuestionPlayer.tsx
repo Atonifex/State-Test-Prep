@@ -21,169 +21,302 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({ state, testId, s
   const [showExplanation, setShowExplanation] = useState<boolean>(false);
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
   const [essayText, setEssayText] = useState<string>("");
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
+  const currentQuestion = questions[index];
+  const isLastQuestion = index >= questions.length - 1;
+
+  // Word count for essays
+  const wordCount = useMemo(() => {
+    return essayText.trim().split(/\s+/).filter(word => word.length > 0).length;
+  }, [essayText]);
+
+  // Reset state when question changes
   useEffect(() => {
-    setStartedAtMs(Date.now());
     setShowExplanation(false);
     setSelectedChoice(null);
     setEssayText("");
+    setIsSubmitted(false);
+    setStartedAtMs(Date.now());
   }, [index]);
 
-  const question = questions[index];
-  const isMcq = useMemo(() => question?.type === "mcq", [question]);
+  // Auto-resize textarea
+  useEffect(() => {
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
+    }
+  }, [essayText]);
 
-  const wordCount = useMemo(() => essayText.trim().split(/\s+/).filter(Boolean).length, [essayText]);
+  const saveAttempt = async (userAnswer: string, isCorrect?: boolean) => {
+    if (!firebaseUser || !currentQuestion) return;
 
-  const onSubmit = async () => {
-    if (!firebaseUser || !question) return;
-    const submittedAtMs = Date.now();
-    const timeSpentSec = Math.max(1, Math.round((submittedAtMs - startedAtMs) / 1000));
-
-    const attemptId = doc(collection(db, `users/${firebaseUser.uid}/attempts`)).id;
-
-    const base: Omit<Attempt, "id"> = {
-      userId: firebaseUser.uid,
+    const now = Date.now();
+    const attemptId = `${currentQuestion.id}-${now}`;
+    
+    const attempt: Attempt = {
+      id: attemptId,
+      uid: firebaseUser.uid,
       state,
       testId,
       subject,
       standardId,
-      questionId: question.id,
-      questionType: question.type,
+      questionId: currentQuestion.id,
+      questionType: currentQuestion.type,
+      difficulty: currentQuestion.difficulty,
+      
+      // Timing
       startedAt: startedAtMs,
-      submittedAt: submittedAtMs,
-      timeSpentSec,
-      correct: question.type === "mcq" ? (selectedChoice != null ? selectedChoice === (question as McqQuestion).answer : null) : null,
-      selectedChoice: question.type === "mcq" ? (selectedChoice ?? null) : null,
-      freeResponse: question.type === "essay" ? (essayText || null) : null,
+      submittedAt: now,
+      timeSpentMs: now - startedAtMs,
+      
+      // Answer data
+      userAnswer,
+      isCorrect: isCorrect || null,
+      //      correct: currentQuestion.type === "mcq" ? (selectedChoice != null ? selectedChoice === (currentQuestion as McqQuestion).answer : null) : null,
+      selectedChoice: currentQuestion.type === "mcq" ? userAnswer : null,
+      freeResponse: currentQuestion.type === "essay" ? userAnswer : null,
+      
+      // Interaction tracking
       explanationViewed: showExplanation,
       tutorUsed: false,
+      
+      // Assignment context (will be populated later)
       classroomId: null,
       assignmentId: null,
+      
+      // Firestore will overwrite this with serverTimestamp()
+      createdAt: now,
     };
 
-    // null-safe conversion
-    const sanitized = Object.fromEntries(Object.entries(base).map(([k, v]) => [k, v === undefined ? null : v]));
-
-    await setDoc(doc(db, `users/${firebaseUser.uid}/attempts/${attemptId}`), {
-      id: attemptId,
-      ...sanitized,
-      createdAt: serverTimestamp(),
-    });
-
-    // Advance to next
-    if (index < questions.length - 1) {
-      setIndex((i) => i + 1);
-    } else {
-      alert("Great work! You’ve completed this set.");
+    try {
+      const attemptRef = doc(collection(db, `users/${firebaseUser.uid}/attempts`), attemptId);
+      await setDoc(attemptRef, {
+        ...attempt,
+        createdAt: serverTimestamp(), // Firestore server timestamp
+      });
+    } catch (error) {
+      console.error("Failed to save attempt:", error);
     }
   };
 
-  if (!question) return <div className="text-gray-600">No questions available.</div>;
+  const handleMcqSubmit = async () => {
+    if (!selectedChoice || isSubmitted) return;
+    
+    const mcqQuestion = currentQuestion as McqQuestion;
+    const isCorrect = selectedChoice === mcqQuestion.answer;
+    
+    await saveAttempt(selectedChoice, isCorrect);
+    setIsSubmitted(true);
+    setShowExplanation(true);
+  };
+
+  const handleEssaySubmit = async () => {
+    if (!essayText.trim() || isSubmitted) return;
+    
+    await saveAttempt(essayText.trim());
+    setIsSubmitted(true);
+  };
+
+  const handleNext = () => {
+    if (index < questions.length - 1) {
+      setIndex(index + 1);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (index > 0) {
+      setIndex(index - 1);
+    }
+  };
+
+  if (!currentQuestion) {
+    return (
+      <div className="text-center py-8">
+        <p className="text-gray-500">No questions available for this standard.</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="space-y-4">
-      <div className="text-sm text-gray-500">Question {index + 1} of {questions.length}</div>
+    <div className="max-w-4xl mx-auto space-y-6">
+      {/* Progress indicator */}
+      <div className="flex items-center justify-between text-sm text-gray-600">
+        <span>Question {index + 1} of {questions.length}</span>
+        <span className="px-2 py-1 bg-gray-100 rounded text-xs">
+          {currentQuestion.difficulty} • {currentQuestion.type.toUpperCase()}
+        </span>
+      </div>
 
-      {isMcq ? (
-        <McqView
-          question={question as McqQuestion}
-          selectedChoice={selectedChoice}
-          onSelect={setSelectedChoice}
-          showExplanation={showExplanation}
-          setShowExplanation={setShowExplanation}
+      {/* Progress bar */}
+      <div className="w-full bg-gray-200 rounded-full h-2">
+        <div 
+          className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+          style={{ width: `${((index + 1) / questions.length) * 100}%` }}
         />
-      ) : (
-        <EssayView
-          question={question as EssayQuestion}
-          essayText={essayText}
-          setEssayText={setEssayText}
-          wordCount={wordCount}
-        />
-      )}
+      </div>
 
-      <div className="flex items-center gap-3 pt-2">
-        <button
-          onClick={onSubmit}
-          className="px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50"
-          disabled={isMcq && !selectedChoice}
-        >
-          Submit
-        </button>
-        {isMcq && (
-          <button
-            onClick={() => setShowExplanation((s) => !s)}
-            className="px-3 py-2 rounded-md border"
-          >
-            {showExplanation ? "Hide explanation" : "Show explanation"}
-          </button>
+      {/* Question content */}
+      <div className="bg-white rounded-lg shadow-sm border p-6 space-y-4">
+        {/* Passage (for MCQ with passages) */}
+        {currentQuestion.type === "mcq" && (currentQuestion as McqQuestion).passage && (
+          <div className="bg-gray-50 p-4 rounded-md">
+            <p className="text-sm font-medium text-gray-700 mb-2">Reading Passage:</p>
+            <p className="text-gray-800 leading-relaxed">
+              {(currentQuestion as McqQuestion).passage}
+            </p>
+          </div>
         )}
+
+        {/* Question text */}
+        <div>
+          <p className="text-lg font-medium text-gray-900 leading-relaxed">
+            {currentQuestion.type === "mcq" 
+              ? (currentQuestion as McqQuestion).question
+              : (currentQuestion as EssayQuestion).prompt
+            }
+          </p>
+        </div>
+
+        {/* MCQ Choices */}
+        {currentQuestion.type === "mcq" && (
+          <div className="space-y-3">
+            {(currentQuestion as McqQuestion).choices.map((choice) => {
+              const choiceKey = choice.split(')')[0];
+              const isSelected = selectedChoice === choiceKey;
+              const isCorrect = choiceKey === (currentQuestion as McqQuestion).answer;
+              
+              let buttonClass = "w-full text-left p-3 rounded-md border transition-colors ";
+              
+              if (isSubmitted) {
+                if (isCorrect) {
+                  buttonClass += "bg-green-50 border-green-300 text-green-800";
+                } else if (isSelected && !isCorrect) {
+                  buttonClass += "bg-red-50 border-red-300 text-red-800";
+                } else {
+                  buttonClass += "bg-gray-50 border-gray-200 text-gray-600";
+                }
+              } else if (isSelected) {
+                buttonClass += "bg-blue-50 border-blue-300 text-blue-800";
+              } else {
+                buttonClass += "bg-white border-gray-200 hover:bg-gray-50";
+              }
+
+              return (
+                <button
+                  key={choiceKey}
+                  onClick={() => !isSubmitted && setSelectedChoice(choiceKey)}
+                  disabled={isSubmitted}
+                  className={buttonClass}
+                >
+                  {choice}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Essay Input */}
+        {currentQuestion.type === "essay" && (
+          <div className="space-y-3">
+            <div className="flex justify-between items-center text-sm">
+              <span className="text-gray-600">
+                Word limit: {(currentQuestion as EssayQuestion).wordLimit}
+              </span>
+              <span className={`font-medium ${
+                wordCount > (currentQuestion as EssayQuestion).wordLimit 
+                  ? 'text-red-600' 
+                  : 'text-gray-700'
+              }`}>
+                {wordCount} words
+              </span>
+            </div>
+            <textarea
+              ref={textareaRef}
+              value={essayText}
+              onChange={(e) => setEssayText(e.target.value)}
+              disabled={isSubmitted}
+              placeholder="Type your essay here..."
+              className="w-full min-h-[300px] p-4 border rounded-md resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-50"
+              style={{ overflow: 'hidden' }}
+            />
+          </div>
+        )}
+
+        {/* Submit button */}
+        {!isSubmitted && (
+          <div className="flex justify-center">
+            <button
+              onClick={currentQuestion.type === "mcq" ? handleMcqSubmit : handleEssaySubmit}
+              disabled={
+                (currentQuestion.type === "mcq" && !selectedChoice) ||
+                (currentQuestion.type === "essay" && !essayText.trim())
+              }
+              className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              Submit Answer
+            </button>
+          </div>
+        )}
+
+        {/* Explanation (MCQ only) */}
+        {currentQuestion.type === "mcq" && showExplanation && (
+          <div className="mt-4 p-4 bg-blue-50 rounded-md border-l-4 border-blue-400">
+            <p className="text-sm font-medium text-blue-800 mb-1">Explanation:</p>
+            <p className="text-blue-700">
+              {(currentQuestion as McqQuestion).explanation}
+            </p>
+          </div>
+        )}
+
+        {/* Essay feedback placeholder */}
+        {currentQuestion.type === "essay" && isSubmitted && (
+          <div className="mt-4 p-4 bg-green-50 rounded-md border-l-4 border-green-400">
+            <p className="text-sm font-medium text-green-800 mb-1">Submitted!</p>
+            <p className="text-green-700">
+              Your essay has been recorded. AI feedback will be available in a future update.
+            </p>
+          </div>
+        )}
+      </div>
+
+      {/* Navigation */}
+      <div className="flex justify-between items-center">
         <button
-          onClick={() => setIndex((i) => Math.min(questions.length - 1, i + 1))}
-          className="px-3 py-2 rounded-md border"
+          onClick={handlePrevious}
+          disabled={index === 0}
+          className="px-4 py-2 text-gray-600 border rounded-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          Skip
+          Previous
+        </button>
+        
+        <span className="text-sm text-gray-500">
+          {index + 1} / {questions.length}
+        </span>
+
+        <button
+          onClick={handleNext}
+          disabled={isLastQuestion}
+          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {isLastQuestion ? "Complete" : "Next"}
         </button>
       </div>
-    </div>
-  );
-};
 
-const McqView: React.FC<{
-  question: McqQuestion;
-  selectedChoice: string | null;
-  onSelect: (v: string) => void;
-  showExplanation: boolean;
-  setShowExplanation: (v: boolean | ((p: boolean) => boolean)) => void;
-}> = ({ question, selectedChoice, onSelect, showExplanation }) => {
-  return (
-    <div className="space-y-3">
-      {question.passage && (
-        <div className="rounded-md border p-3 bg-white text-sm whitespace-pre-wrap">{question.passage}</div>
+      {/* Completion message */}
+      {isLastQuestion && isSubmitted && (
+        <div className="text-center py-6">
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6">
+            <h3 className="text-lg font-semibold text-green-800 mb-2">
+              Great job! You've completed all questions.
+            </h3>
+            <p className="text-green-700">
+              Your progress has been saved. Keep practicing to improve your skills!
+            </p>
+          </div>
+        </div>
       )}
-      <div className="text-lg font-medium whitespace-pre-wrap">{question.question}</div>
-      <div className="space-y-2">
-        {question.choices.map((c, idx) => {
-          const label = c.trim().substring(0, 2).match(/^[A-D]\)/) ? c.trim()[0] : String.fromCharCode(65 + idx);
-          return (
-            <label key={idx} className="flex items-center gap-2 p-2 rounded-md border cursor-pointer hover:bg-gray-50">
-              <input
-                type="radio"
-                name="choice"
-                value={label}
-                checked={selectedChoice === label}
-                onChange={() => onSelect(label)}
-              />
-              <span className="whitespace-pre-wrap">{c}</span>
-            </label>
-          );
-        })}
-      </div>
-      {showExplanation && question.explanation && (
-        <div className="rounded-md border p-3 bg-emerald-50 text-sm whitespace-pre-wrap">{question.explanation}</div>
-      )}
-    </div>
-  );
-};
-
-const EssayView: React.FC<{
-  question: EssayQuestion;
-  essayText: string;
-  setEssayText: (v: string) => void;
-  wordCount: number;
-}> = ({ question, essayText, setEssayText, wordCount }) => {
-  const limit = question.wordLimit || 500;
-  return (
-    <div className="space-y-3">
-      <div className="text-lg font-medium whitespace-pre-wrap">{question.prompt}</div>
-      <textarea
-        value={essayText}
-        onChange={(e) => setEssayText(e.target.value)}
-        className="w-full min-h-40 rounded-md border p-2"
-        placeholder={`Write up to ${limit} words...`}
-      />
-      <div className={`text-sm ${wordCount > limit ? 'text-red-600' : 'text-gray-600'}`}>
-        {wordCount} / {limit} words
-      </div>
     </div>
   );
 }; 

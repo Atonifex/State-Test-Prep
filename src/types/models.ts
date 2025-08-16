@@ -52,23 +52,36 @@ export type Question = McqQuestion | EssayQuestion;
 
 export interface Attempt {
   id: string;
-  userId: string;
+  uid: string; // Firebase user ID
   state: string;
   testId: string;
   subject: string;
   standardId: string;
   questionId: string;
   questionType: QuestionType;
-  startedAt: number; // ms epoch
-  submittedAt: number; // ms epoch
-  timeSpentSec: number;
-  correct: boolean | null; // null for essay
-  selectedChoice?: string | null;
-  freeResponse?: string | null;
-  explanationViewed: boolean;
-  tutorUsed: boolean;
-  classroomId: string | null;
-  assignmentId: string | null;
+  difficulty: Difficulty;
+  
+  // Timing (all in milliseconds epoch for consistency)
+  startedAt: number; // when question was first shown
+  submittedAt: number; // when answer was submitted  
+  timeSpentMs: number; // calculated: submittedAt - startedAt
+  
+  // Answer data
+  userAnswer: string; // selected choice (A/B/C/D) or essay text
+  isCorrect: boolean | null; // true/false for MCQ, null for essay
+  selectedChoice?: string | null; // for MCQ: A/B/C/D
+  freeResponse?: string | null; // for essay: full text
+  
+  // Interaction tracking
+  explanationViewed?: boolean;
+  tutorUsed?: boolean;
+  
+  // Assignment context (optional)
+  classroomId?: string | null;
+  assignmentId?: string | null;
+  
+  // Firestore timestamp
+  createdAt: number; // epoch ms, will be overwritten with serverTimestamp() in Firestore
 }
 
 export interface Classroom {
