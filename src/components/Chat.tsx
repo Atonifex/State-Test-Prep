@@ -93,22 +93,6 @@ export function Chat({ personaName, connected, sendText, onTextDelta, onComplete
 
   return (
     <div className="flex h-full flex-col">
-      <div className="flex items-center gap-3 pb-3">
-        <button
-          onClick={() => setAutoSend((v) => !v)}
-          className={`rounded-xl px-3 py-2 border ${autoSend ? "bg-[#E8B4B8] text-white border-transparent" : "bg-white text-[#5A3E3E] border-[#EED9DF]"}`}
-        >
-          Auto-Send: {autoSend ? "On" : "Off"}
-        </button>
-        <button
-          onClick={speech.listening ? stop : start}
-          className="rounded-xl bg-[#E8B4B8] text-white px-4 py-2 shadow-sm transition-transform hover:scale-[1.03] disabled:opacity-50"
-          disabled={!connected}
-        >
-          {speech.listening ? "Stop mic" : "Start mic"}
-        </button>
-      </div>
-
       <div className="flex-1 overflow-y-auto rounded-xl border border-[#EED9DF] bg-white/70 backdrop-blur p-4 space-y-3">
         {messages.map((m) => (
           <div key={m.id} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
