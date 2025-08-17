@@ -232,14 +232,17 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header with timer - full width */}
       <TestHeader
-        title={`${subject} Practice`}
+        title={`${section.name}: ${section.label}`}
         currentIndex={questionIndex + 1}
         totalItems={allQuestions.length}
         timerRef={timerRef}
         onBackClick={handleBackToStandards}
-        backLabel="Back to Standards"
+        backLabel="Return"
         completedItems={completedCount}
         showTimer={true}
+        sectionInfo={`${subject} Practice`}
+        showNavigator={showNavigator}
+        onToggleNavigator={() => setShowNavigator(!showNavigator)}
       />
 
       {/* Hidden timer component for functionality */}
@@ -255,47 +258,10 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
 
       {/* Responsive container for all content below header */}
       <div className="flex-1 w-full max-w-[96vw] mx-auto px-[2vw]">
-        {/* Progress bar */}
-        <div className="bg-white border-b">
-          <div className="py-3 px-4">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-sm font-medium text-gray-900">
-                Question {questionIndex + 1} of {allQuestions.length}
-              </span>
-              <span className="text-sm font-medium text-gray-900">
-                {completedCount} of {allQuestions.length} Questions Completed
-              </span>
-              <div className="flex items-center gap-2">
-                <span className="px-2 py-1 bg-gray-100 rounded text-xs text-gray-700">
-                  {section.name} • {section.label}
-                </span>
-                {/* Mobile navigator toggle */}
-                <button
-                  onClick={() => setShowNavigator(!showNavigator)}
-                  className="lg:hidden p-2 rounded-md hover:bg-gray-100 transition-colors"
-                >
-                  {showNavigator ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
-                </button>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="w-full bg-gray-200 rounded-full h-3">
-                <div 
-                  className="bg-orange-500 h-3 rounded-full transition-all duration-500 ease-out"
-                  style={{ width: `${((questionIndex + 1) / allQuestions.length) * 100}%` }}
-                />
-              </div>
-              <div className="absolute inset-0 flex items-center justify-center text-xs font-medium text-white">
-                {Math.round(((questionIndex + 1) / allQuestions.length) * 100)}%
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Question Navigator - Above main content, constrained width */}
         {showNavigator && (
-          <div className="bg-white border-b">
-            <div className="max-w-7xl mx-auto">
+          <div className="my-2">
+            <div className="mx-auto">
               <QuestionNavigator
                 totalItems={allQuestions.length}
                 currentIndex={questionIndex}
@@ -309,7 +275,7 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
         )}
 
         {/* Main content area */}
-        <div className="py-6">
+        <div className="py-2">
           <AnimatePresence mode="wait">
             <motion.div
               key={questionIndex}
@@ -323,20 +289,19 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
               <div className="bg-gray-50 px-8 py-4 border-b">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-lg font-semibold text-gray-900 mb-1">
-                      {section.name}: {section.label}
-                    </h2>
                     {section.title && (
-                      <p className="text-gray-900">
-                        <span className="font-medium">{section.title}</span>
+                      <h2 className="text-lg font-semibold text-gray-900 mb-1">
+                        {section.title}
                         {section.author && <span className="text-gray-700"> by {section.author}</span>}
                         {section.year && <span className="text-gray-700"> ({section.year})</span>}
-                      </p>
+                      </h2>
                     )}
                     {section.subtitle && (
                       <p className="text-sm text-gray-700 mt-1">{section.subtitle}</p>
                     )}
-                    <p className="text-sm text-gray-700 mt-2">{section.directions}</p>
+                    {section.directions && (
+                      <p className="text-sm text-gray-700 mt-2">{section.directions}</p>
+                    )}
                   </div>
                   <button
                     onClick={toggleMarkQuestion}

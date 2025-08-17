@@ -12,6 +12,29 @@ export interface UserProfile {
   classroomIds: string[]; // membership
   createdAt: number | null; // epoch ms
   lastLoginAt: number | null; // epoch ms
+  
+  // Gamification data for Dashboard 2.0
+  level: number; // User's current level (starts at 1)
+  xp: number; // Current experience points
+  totalPoints: number; // Total points earned (for rewards store)
+  currentStreak: number; // Days of consecutive practice
+  longestStreak: number; // Best streak ever achieved
+  
+  // Personalization
+  selectedAvatar: string; // Emoji avatar like "🦊"
+  selectedTheme: "cosmic" | "ocean" | "forest" | "sunset"; // Theme preference
+  unlockedAvatars: string[]; // Array of unlocked avatar emojis
+  unlockedThemes: string[]; // Array of unlocked theme names
+  
+  // Achievements
+  achievements: string[]; // Array of achievement names
+  achievementProgress: Record<string, number>; // Progress toward achievements
+  
+  // Practice stats (calculated from Attempts)
+  questionsCompleted: number; // Total questions answered
+  totalTimeSpentMs: number; // Total practice time in milliseconds
+  averageScore: number; // Average percentage score (0-100)
+  lastPracticeDate: number | null; // Last time user practiced (epoch ms)
 }
 
 export interface StandardRef {

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Clock, HelpCircle } from 'lucide-react';
+import { ArrowLeft, Clock, HelpCircle, Menu, X } from 'lucide-react';
 import { TestTimerRef } from './TestTimer';
 
 interface TestHeaderProps {
@@ -13,6 +13,9 @@ interface TestHeaderProps {
   backLabel?: string;
   completedItems?: number;
   showTimer?: boolean;
+  sectionInfo?: string; // Add section info prop
+  showNavigator?: boolean;
+  onToggleNavigator?: () => void;
 }
 
 export const TestHeader: React.FC<TestHeaderProps> = ({
@@ -21,14 +24,17 @@ export const TestHeader: React.FC<TestHeaderProps> = ({
   totalItems,
   timerRef,
   onBackClick,
-  backLabel = 'Back to Standards',
+  backLabel = 'Back',
   completedItems,
-  showTimer = true
+  showTimer = true,
+  sectionInfo,
+  showNavigator,
+  onToggleNavigator
 }) => {
   const [timeDisplay, setTimeDisplay] = useState<string>('0:00');
   
-  // Calculate remaining questions
-  const answeredCount = completedItems !== undefined ? completedItems : currentIndex;
+  // Calculate completed questions
+  const answeredCount = completedItems !== undefined ? completedItems : 0;
   const remainingQuestions = totalItems - answeredCount;
 
   // Update the time display every second
@@ -66,19 +72,20 @@ export const TestHeader: React.FC<TestHeaderProps> = ({
           <div className="flex items-center gap-4">
             <button 
               onClick={handleBackClick}
-              className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-700 transition-colors"
+              className="flex items-center gap-1 bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-700 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               {backLabel}
             </button>
-            
-            <div className="flex flex-col">
-              <p className="text-orange-400 text-sm uppercase tracking-wide font-medium">
-                State Test Prep
-              </p>
-              <h1 className="text-xl font-bold text-white">
-                {title}
-              </h1>
+            <div className="hidden sm:block">
+                <div className="flex flex-col">
+                <p className="text-orange-400 text-sm uppercase tracking-wide font-medium">
+                    {sectionInfo || 'State Test Prep'}
+                </p>
+                <h1 className="text-xl font-bold text-white">
+                    {title}
+                </h1>
+                </div>
             </div>
           </div>
           
@@ -94,12 +101,27 @@ export const TestHeader: React.FC<TestHeaderProps> = ({
             </div>
           )}
           
-          {/* Right side - Questions remaining */}
-          <div className="flex items-center gap-2 bg-orange-500 px-4 py-2 rounded-full shadow-lg hover:bg-orange-600 transition-colors">
-            <HelpCircle className="w-4 h-4 text-white" />
-            <span className="text-white font-medium text-sm">
-              {remainingQuestions} Questions Remaining
-            </span>
+          {/* Right side - Questions completed */}
+          <div className="flex items-center gap-3">
+            {/* Mobile navigator toggle */}
+            {onToggleNavigator && (
+              <button
+                onClick={onToggleNavigator}
+                className="lg:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
+              >
+                {showNavigator ? <X className="w-4 h-4 text-white" /> : <Menu className="w-4 h-4 text-white" />}
+              </button>
+            )}
+            
+            <div className="flex items-center gap-2 bg-orange-500 px-4 py-2 rounded-full shadow-lg hover:bg-orange-600 transition-colors">
+              {/*<HelpCircle className="w-4 h-4 text-white" />*/}
+              <span className="text-white font-medium text-sm">
+                <span className="sm:hidden">{answeredCount}/{totalItems} Done</span>
+                <span className="hidden sm:inline text-white font-medium text-sm">
+                  {answeredCount} of {totalItems} Questions Completed
+                </span>
+              </span>
+            </div>
           </div>
         </div>
       </div>

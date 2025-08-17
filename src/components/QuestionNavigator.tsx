@@ -104,7 +104,7 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white rounded-xl shadow-sm border overflow-hidden">
       {/* Tabs */}
       <div className="border-b border-gray-200">
         <div className="flex w-full">
@@ -182,7 +182,7 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
               ))}
             </div>
           ) : (
-            <div className="text-center py-6">
+            <div className="text-center">
               <BookmarkCheck className="w-10 h-10 text-gray-300 mx-auto mb-3" />
               <p className="text-gray-700 text-base">No questions marked for review yet</p>
             </div>
