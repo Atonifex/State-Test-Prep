@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useMemo, useRef, useState } from "react"
-import { useSpeechRecognition } from "@/hooks/use-speech-recognition"
+import { useSpeechRecognition } from "@/app/hooks/use-speech-recognition"
 
 type Message = { id: string; role: "user" | "assistant"; content: string }
 

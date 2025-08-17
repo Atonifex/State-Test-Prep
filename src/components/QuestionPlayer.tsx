@@ -12,6 +12,7 @@ import { collection, doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { TestHeader } from "./TestHeader";
 import { TestTimer, TestTimerRef } from "./TestTimer";
 import { QuestionNavigator } from "./QuestionNavigator";
+import { VoiceTutor } from "./VoiceTutor";
 import { useRouter } from "next/navigation";
 
 export type QuestionPlayerProps = {
@@ -496,6 +497,17 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
             </div>
           </motion.div>
         )}
+
+        {/* Voice Tutor - Always available floating button */}
+        <VoiceTutor questionContext={`
+            Question: ${currentQuestion.questionText}
+            Passage: ${section.passage ? section.passage.substring(0, 500) + '...' : 'No passage'}
+            Subject: ${subject}
+            Standards: ${currentQuestion.standards?.join(', ') || 'General'}
+            Section: ${section.name} - ${section.label}
+            ${section.title ? `Title: ${section.title}` : ''}
+            ${section.author ? `Author: ${section.author}` : ''}
+        `.trim()} />
       </div>
     </div>
   );
