@@ -1,0 +1,518 @@
+[
+    {
+    "section": {
+      "name": "Part I",
+      "directions": "Read the following short story. Then answer the questions that follow.",
+      "label": "Analyzing Literature/Short Story",
+      "title": "An Uncomfortable Bed",
+      "author": "Guy de Maupassant",
+      "passage": "One autumn I went to spend the hunting season with some friends in a chateau in Picardy.\n2     My friends were fond of practical jokes. I do not care to know people who are not.\n3     When I arrived, they gave me a princely reception, which at once awakened suspicion in my mind. They fired off rifles, embraced me, made much of me, as if they expected to have great fun at my expense.\n4     I said to myself: \"Look out, old ferret! They have something in store for you.\"\n5     During the dinner the mirth was excessive, exaggerated, in fact. I thought: \"Here are people who have more than their share of amusement, and apparently without reason. They must have planned some good joke. Assuredly I am to be the victim of the joke. Attention!\"\n6     During the entire evening every one laughed in an exaggerated fashion. I scented a practical joke in the air, as a dog scents game. But what was it? I was watchful, restless. I did not let a word, or a meaning, or a gesture escape me. Every one seemed to me an object of suspicion, and I even looked distrustfully at the faces of the servants.\n7     The hour struck for retiring; and the whole household came to escort me to my room. Why? They called to me: \"Good-night.\" I entered the apartment, shut the door, and remained standing, without moving a single step, holding the wax candle in my hand.\n8     I heard laughter and whispering in the corridor. Without doubt they were spying on me. I cast a glance round the walls, the furniture, the ceiling, the hangings, the floor. I saw nothing to justify suspicion. I heard persons moving about outside my door. I had no doubt they were looking through the keyhole.\n9     An idea came into my head: \"My candle may suddenly go out and leave me in darkness.\"\n10     Then I went across to the mantelpiece and lighted all the wax candles that were on it. After that I cast another glance around me without discovering anything. I advanced with short steps, carefully examining the apartment. Nothing. I inspected every article, one after the other. Still nothing. I went over to the window. The shutters, large wooden shutters, were open. I shut them with great care, and then drew the curtains, enormous velvet curtains, and placed a chair in front of them, so as to have nothing to fear from outside.\n11     Then I cautiously sat down. The armchair was solid. I did not venture to get into the bed. However, the night was advancing; and I ended by coming to the conclusion that I was foolish. If they were spying on me, as I supposed, they must, while waiting for the success of the joke they had been preparing for me, have been laughing immoderately at my terror. So I made up my mind to go to bed. But the bed was particularly suspicious-looking. I pulled at the curtains. They seemed to be secure.\n12     All the same, there was danger. I was going perhaps to receive a cold shower both from overhead, or perhaps, the moment I stretched myself out, to find myself sinking to the floor with my mattress. I searched in my memory for all the practical jokes of which I ever had experience. And I did not want to be caught. Ah! certainly not! certainly not! Then I suddenly bethought myself of a precaution which I considered insured safety. I caught hold of the side of the mattress gingerly, and very slowly drew it toward me. It came away, followed by the sheet and the rest of the bedclothes. I dragged all these objects into the very middle of the room, facing the entrance door. I made my bed over again as best I could at some distance from the suspected bedstead and the corner which had filled me with such anxiety. Then I extinguished all the candles, and, groping my way, I slipped under the bed clothes.\n13     For at least another hour I remained awake, starting at the slightest sound. Everything seemed quiet in the chateau. I fell asleep.\n14     I must have been in a deep sleep for a long time, but all of a sudden I was awakened with a start by the fall of a heavy body tumbling right on top of my own, and, at the same time, I received on my face, on my neck, and on my chest a burning liquid which made me utter a howl of pain. And a dreadful noise, as if a sideboard laden with plates and dishes had fallen down, almost deafened me.\n15     I was smothering beneath the weight that was crushing me and preventing me from moving. I stretched out my hand to find out what was the nature of this object. I felt a face, a nose, and whiskers. Then, with all my strength, I launched out a blow at this face. But I immediately received a hail of cuffings which made me jump straight out of the soaked sheets, and rush in my nightshirt into the corridor, the door of which I found open.\n16     Oh, heavens! it was broad daylight. The noise brought my friends hurrying into my apartment, and we found, sprawling over my improvised bed, the dismayed valet, who, while bringing me my morning cup of tea, had tripped over this obstacle in the middle of the floor and fallen on his stomach, spilling my breakfast over my face in spite of himself.\n17     The precautions I had taken in closing the shutters and going to sleep in the middle of the room had only brought about the practical joke I had been trying to avoid.\n18     Oh, how they all laughed that day!",
+      "questions": [
+        {
+          "number": 1,
+          "questionText": "Which statement below BEST expresses a central theme of 'An Uncomfortable Bed'?",
+          "choices": [
+            "A) Practical jokes can ruin a friendship",
+            "B) Trying to avoid one’s fears can do more damage than facing them.",
+            "C) A man makes a fool of himself in front of his friends when he fears their practical jokes.",
+            "D) Paranoia"
+          ],
+          "correctAnswer": "B",
+          "explanationText": "The narrator spends all night trying to avoid a prank, but in doing so, he embarrasses himself even more. His paranoia backfires.",
+          "standards": ["RL.2"]
+        },
+        {
+          "number": 2,
+          "questionText": "Which of the following passages most strongly supports the answer to question 1?",
+          "choices": [
+            "A) “When I arrived, they gave me a princely reception, which at once awakened suspicion in my mind.”",
+            "B) “If they were spying on me, as I supposed, they must, while waiting for the success of the joke they had been preparing for me, have been laughing immoderately at my terror.”",
+            "C) “All the same, there was danger. I was going perhaps to receive a cold shower both from overhead, or perhaps, the moment I stretched myself out, to find myself sinking to the floor with my mattress.”",
+            "D) “…we found, sprawling over my improvised bed, the dismayed valet, who, while bringing me my morning cup of tea, had tripped over this obstacle in the middle of the floor and fallen on his stomach, spilling my breakfast over my face in spite of himself.”"
+          ],
+          "correctAnswer": "B",
+          "explanationText": "This line shows that by trying too hard to avoid the prank, the narrator makes himself look foolish — proving the theme.",
+          "standards": ["RL.1"]
+        },
+        {
+          "number": 3,
+          "questionText": "Which of the following statements most accurately describe the narrator?",
+          "choices": [
+            "A) He appreciates a good practical joke, though fears one being made at his expense.",
+            "B) He disapproves of and distrusts his friends because they are practical jokers.",
+            "C) While he likes to laugh, he secretly dislikes his friends because of their mean-spirited pranks.",
+            "D) He does not like practical jokes because he fears they put him in danger."
+          ],
+          "correctAnswer": "A",
+          "explanationText": "He admits he likes people who enjoy practical jokes, but he panics when he suspects he might be their target.",
+          "standards": ["RL.3"]
+        },
+        {
+          "number": 4,
+          "questionText": "Which of the following lines from the story most strongly support your response to the previous question? Choose TWO responses.",
+          "choices": [
+            "A) “My friends were fond of practical jokes. I do not care to know people who are not.”",
+            "B) “During the dinner the mirth was excessive, exaggerated, in fact. I thought: ‘Here are people who have more than their share of amusement, and apparently without reason.’”",
+            "C) “They must have planned some good joke. Assuredly I am to be the victim of the joke. Attention!”",
+            "D) “However, the night was advancing; and I ended by coming to the conclusion that I was foolish.”",
+            "E) “I was smothering beneath the weight that was crushing me and preventing me from moving. I stretched out my hand to find out what was the nature of this object. I felt a face, a nose, and whiskers.”"
+          ],
+          "correctAnswer": ["A", "C"],
+          "explanationText": "Line A shows he enjoys practical jokers in general. Line C shows his fear of becoming the victim, which matches the description.",
+          "standards": ["RL.1"]
+        },
+        {
+          "number": 5,
+          "questionText": "What is the main cause of conflict between the narrator and his friends in the story?",
+          "choices": [
+            "A) The narrator’s friends are fond of practical jokes while the narrator is not.",
+            "B) The narrator’s friends’ exaggerated merriment and love of practical jokes make him feel paranoid they will play one on him.",
+            "C) The friends’ behavior becomes increasingly sneaky and insincere as the night goes on.",
+            "D) The friends falsely act as if they have the narrator’s best interest in mind when in reality they want to scare him."
+          ],
+          "correctAnswer": "B",
+          "explanationText": "Their constant joking makes him suspicious and paranoid, creating the central conflict of the story.",
+          "standards": ["RL.3"]
+        },
+        {
+          "number": 6,
+          "questionText": "Which of the following choices BEST describe the tone of 'An Uncomfortable Bed'?",
+          "choices": [
+            "A) Humorous and ironic",
+            "B) Suspenseful and sinister",
+            "C) Frightened and paranoid",
+            "D) Innocent and childish"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "Although the narrator is paranoid, the way events unfold is comical and ironic rather than scary.",
+          "standards": ["RL.4"]
+        },
+        {
+          "number": 7,
+          "questionText": "Which of the following lines from the story most strongly support your response to the previous question?",
+          "choices": [
+            "A) “I must have been in a deep sleep for a long time, but all of a sudden I was awakened with a start by the fall of a heavy body tumbling right on top of my own.”",
+            "B) “So I made up my mind to go to bed. But the bed was particularly suspicious-looking. I pulled at the curtains.”",
+            "C) “I made my bed over again as best I could at some distance from the suspected bedstead and the corner which had filled me with such anxiety.”",
+            "D) “The precautions I had taken in closing the shutters and going to sleep in the middle of the room had only brought about the practical joke I had been trying to avoid.”"
+          ],
+          "correctAnswer": "D",
+          "explanationText": "This ending reveals the irony: his efforts to avoid the prank caused the comic mishap.",
+          "standards": ["RL.1"]
+        },
+        {
+          "number": 8,
+          "questionText": "Choose the selection below that best explains the author’s use of figurative language in the following line from paragraph 6: 'I smelled a practical joke in the air, as a dog scents game.'",
+          "choices": [
+            "A) The author uses a metaphor to compare his fondness for jokes to a dog that enjoys playing.",
+            "B) The author uses a simile to compare his sense that he will be the target of a joke to a hunting dog picking up the scent of prey.",
+            "C) The author uses personification to humanize a dog hunting prey to demonstrate that the narrator himself will fall prey to his friends’ jokes.",
+            "D) The author uses hyperbole to exaggerate his paranoia to be greater than that of animals being hunted by a dog."
+          ],
+          "correctAnswer": "B",
+          "explanationText": "The narrator compares his suspicion to a hunting dog catching the smell of prey, showing his alertness.",
+          "standards": ["RL.4"]
+        },
+        {
+          "number": 9,
+          "questionText": "In paragraph 7, the narrator states: 'The hour struck for retiring; and the whole household came to escort me to my room. Why?' What is the author’s most likely purpose for including the word 'why' as a sentence on its own?",
+          "choices": [
+            "A) He wants the reader to question the narrator’s actions as he prepares for bedtime.",
+            "B) He wants to illustrate the narrator’s increasing paranoia by showing his questioning of every action by his friends.",
+            "C) He wants to build suspense by having both the narrator and the reader questioning the friends’ motives.",
+            "D) All of the above",
+            "E) B and C only"
+          ],
+          "correctAnswer": "E",
+          "explanationText": "The single word shows his paranoia and also builds suspense for the reader, fitting both B and C.",
+          "standards": ["RL.5"]
+        },
+        {
+          "number": 10,
+          "questionText": "Choose the selection below that is closest in meaning to the phrase 'hail of cuffings' as used in the following passage from paragraph 15:",
+          "choices": [
+            "A) A bombardment of punches or hits",
+            "B) A greeting of insults",
+            "C) A storm of ice pellets",
+            "D) Loudly shouted warnings"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "Here 'hail' means a shower or barrage, and 'cuffings' means blows — so it refers to being hit many times.",
+          "standards": ["RL.4"]
+        }
+      ]
+    }
+  },
+
+  {
+    "section": {
+      "name": "Part II",
+      "directions": "Read the following speech. Then answer the questions that follow.",
+      "label": "Analyzing Informational Text",
+      "title": "FDR’s First Inaugural Address",
+      "author": "President Franklin Delano Roosevelt, 1933",
+      "context": "When Franklin Delano Roosevelt was elected president in 1933, the United States was at the peak of the Great Depression, with unemployment soaring, banks and industries failing, poverty rampant, and public confidence in government at an all-time low. In this famous speech delivered at his inauguration, Roosevelt outlined in broad terms how he hoped to govern and addressed the growing fears of the American people during this time of crisis.",
+      "pictureURL": "test_pictures/fdr-inauguration.png",
+      "passage": "I am certain that my fellow Americans expect that on my induction into the Presidency I will address them with a candor(1) and a decision which the present situation of our people impel(2). This is preeminently the time to speak the truth, the whole truth, frankly and boldly. Nor need we shrink from honestly facing conditions in our country today. This great Nation will endure as it has endured, will revive and will prosper. So, first of all, let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance. In every dark hour of our national life a leadership of frankness and vigor has met with that understanding and support of the people themselves which is essential to victory. I am convinced that you will again give that support to leadership in these critical days.\n2     In such a spirit on my part and on yours we face our common difficulties. They concern, thank God, only material things. Values have shrunken to fantastic levels; taxes have risen; our ability to pay has fallen; government of all kinds is faced by serious curtailment of income; the means of exchange are frozen in the currents of trade; the withered leaves of industrial enterprise lie on every side; farmers find no markets for their produce; the savings of many years in thousands of families are gone.\n3     More important, a host of unemployed citizens face the grim problem of existence, and an equally great number toil with little return. Only a foolish optimist can deny the dark realities of the moment.\n4     Yet our distress comes from no failure of substance. We are stricken by no plague of locusts. Compared with the perils which our forefathers conquered because they believed and were not afraid, we have still much to be thankful for. Nature still offers her bounty and human efforts have multiplied it. Plenty is at our doorstep, but a generous use of it languishes(3) in the very sight of the supply. Primarily this is because the rulers of the exchange of mankind’s goods have failed, through their own stubbornness and their own incompetence, have admitted their failure, and abdicated(4). Practices of the unscrupulous(5) money changers stand indicted(6) in the court of public opinion, rejected by the hearts and minds of men.\n5     True they have tried, but their efforts have been cast in the pattern of an outworn tradition. Faced by failure of credit they have proposed only the lending of more money. Stripped of the lure of profit by which to induce our people to follow their false leadership, they have resorted to exhortations, pleading tearfully for restored confidence. They know only the rules of a generation of self-seekers. They have no vision, and when there is no vision the people perish.\n6     The money changers have fled from their high seats in the temple of our civilization. We may now restore that temple to the ancient truths. The measure of the restoration lies in the extent to which we apply social values more noble than mere monetary profit.\n7     Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort. The joy and moral stimulation of work no longer must be forgotten in the mad chase of evanescent(7) profits. These dark days will be worth all they cost us if they teach us that our true destiny is not to be ministered unto but to minister to ourselves and to our fellow men.\n8     Recognition of the falsity of material wealth as the standard of success goes hand in hand with the abandonment of the false belief that public office and high political position are to be valued only by the standards of pride of place and personal profit; and there must be an end to a conduct in banking and in business which too often has given to a sacred trust the likeness of callous(8) and selfish wrongdoing. Small wonder that confidence languishes, for it thrives only on honesty, on honor, on the sacredness of obligations, on faithful protection, on unselfish performance; without them it cannot live.\n9     Restoration calls, however, not for changes in ethics alone. This Nation asks for action, and action now.\n10     Our greatest primary task is to put people to work. This is no unsolvable problem if we face it wisely and courageously. It can be accomplished in part by direct recruiting by the Government itself, treating the task as we would treat the emergency of a war, but at the same time, through this employment, accomplishing greatly needed projects to stimulate and reorganize the use of our natural resources.\n11     Hand in hand with this we must frankly recognize the overbalance of population in our industrial centers and, by engaging on a national scale in a redistribution, endeavor to provide a better use of the land for those best fitted for the land. The task can be helped by definite efforts to raise the values of agricultural products and with this the power to purchase the output of our cities. It can be helped by preventing realistically the tragedy of the growing loss through foreclosure of our small homes and our farms. It can be helped by insistence that the Federal, State, and local governments act forthwith on the demand that their cost be drastically reduced. It can be helped by the unifying of relief activities which today are often scattered, uneconomical, and unequal. It can be helped by national planning for and supervision of all forms of transportation and of communications and other utilities which have a definitely public character. There are many ways in which it can be helped, but it can never be helped merely by talking about it. We must act and act quickly.\n12     Finally, in our progress toward a resumption of work we require two safeguards against a return of the evils of the old order; there must be a strict supervision of all banking and credits and investments; there must be an end to speculation with other people’s money, and there must be provision for an adequate but sound currency.\n13     There are the lines of attack. I shall presently urge upon a new Congress in special session detailed measures for their fulfillment, and I shall seek the immediate assistance of the several States.\n14     Through this program of action we address ourselves to putting our own national house in order and making income balance outgo. Our international trade relations, though vastly important, are in point of time and necessity secondary to the establishment of a sound national economy. I favor as a practical policy the putting of first things first. I shall spare no effort to restore world trade by international economic readjustment, but the emergency at home cannot wait on that accomplishment.\n15     The basic thought that guides these specific means of national recovery is not narrowly nationalistic. It is the insistence, as a first consideration, upon the interdependence of the various elements in all parts of the United States—a recognition of the old and permanently important manifestation of the American spirit of the pioneer. It is the way to recovery. It is the immediate way. It is the strongest assurance that the recovery will endure.\n16     In the field of world policy I would dedicate this Nation to the policy of the good neighbor—the neighbor who resolutely respects himself and, because he does so, respects the rights of others—the neighbor who respects his obligations and respects the sanctity of his agreements in and with a world of neighbors.\n17     If I read the temper of our people correctly, we now realize as we have never realized before our interdependence on each other; that we cannot merely take but we must give as well; that if we are to go forward, we must move as a trained and loyal army willing to sacrifice for the good of a common discipline, because without such discipline no progress is made, no leadership becomes effective. We are, I know, ready and willing to submit our lives and property to such discipline, because it makes possible a leadership which aims at a larger good. This I propose to offer, pledging that the larger purposes will bind upon us all as a sacred obligation with a unity of duty hitherto evoked only in time of armed strife.\n18     With this pledge taken, I assume unhesitatingly the leadership of this great army of our people dedicated to a disciplined attack upon our common problems.\n19     Action in this image and to this end is feasible under the form of government which we have inherited from our ancestors. Our Constitution is so simple and practical that it is possible always to meet extraordinary needs by changes in emphasis and arrangement without loss of essential form. That is why our constitutional system has proved itself the most superbly enduring political mechanism the modern world has produced. It has met every stress of vast expansion of territory, of foreign wars, of bitter internal strife, of world relations.\n20     It is to be hoped that the normal balance of executive and legislative authority may be wholly adequate to meet the unprecedented task before us. But it may be that an unprecedented demand and need for undelayed action may call for temporary departure from that normal balance of public procedure.\n21     I am prepared under my constitutional duty to recommend the measures that a stricken nation in the midst of a stricken world may require. These measures, or such other measures as the Congress may build out of its experience and wisdom, I shall seek, within my constitutional authority, to bring to speedy adoption.\n22     But in the event that the Congress shall fail to take one of these two courses, and in the event that the national emergency is still critical, I shall not evade the clear course of duty that will then confront me. I shall ask the Congress for the one remaining instrument to meet the crisis—broad Executive power to wage a war against the emergency, as great as the power that would be given to me if we were in fact invaded by a foreign foe.\n23     For the trust reposed in me I will return the courage and the devotion that befit the time. I can do no less.\n24     We face the arduous(9) days that lie before us in the warm courage of the national unity; with the clear consciousness of seeking old and precious moral values; with the clean satisfaction that comes from the stern performance of duty by old and young alike. We aim at the assurance of a rounded and permanent national life.\n25     We do not distrust the future of essential democracy. The people of the United States have not failed. In their need they have registered a mandate(10) that they want direct, vigorous action. They have asked for discipline and direction under leadership. They have made me the present instrument of their wishes. In the spirit of the gift I take it.\n26     In this dedication of a Nation we humbly ask the blessing of God. May He protect each and every one of us. May He guide me in the days to come.\n\nVocabulary definitions: \n(1) Candor: frankness, truthfulness, honesty; the quality of being open and honest in expression \n(2) Impel: to drive, force, or urge (someone) to do something \n(3) Languish: to grow weak or feeble; to decline or deteriorate \n(4) Abdicate: to give up a title or resign from a position, often due to failure to uphold one's duties \n(5) Unscrupulous: having or showing no moral principles; not honest or fair \n(6) Indict: to formally accuse of or charge with a serious crime \n(7) Evanescent: fleeting, short-lived; gradually disappearing from sight or memory \n(8) Callous: showing no concern for others; cruel or cold \n(9) Arduous: difficult and tiring; involving or requiring strenuous effort \n(10) Mandate: an official order to take a course of action or carry out a policy",
+      "questions": [
+        {
+          "number": 11,
+          "questionText": "Which of the following choices BEST describes how Roosevelt introduces the central idea of his speech?",
+          "choices": [
+            "A) He reassures the public by calming their worries, then persuades Americans to work together against their common fears and enemies.",
+            "B) He reassures the public through honesty, then outlines his broad plan to bring America back to prosperity.",
+            "C) He provides a candid criticism of the former administration’s policies, then inspires confidence by describing the differences between their recovery plan and his own.",
+            "D) He candidly describes the causes of the nation’s economic downfall, then provides a detailed economic recovery plan for the future."
+          ],
+          "correctAnswer": "B",
+          "explanationText": "Roosevelt begins by frankly acknowledging the crisis, then pivots to a hopeful vision and broad plan for national recovery.",
+          "standards": ["RI.2"]
+        },
+        {
+          "number": 12,
+          "questionText": "Which choice BEST describes the tone Roosevelt’s address?",
+          "choices": [
+            "A) candid but optimistic",
+            "B) satisfied but cautionary",
+            "C) critical but open-minded",
+            "D) emotional but decisive"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "The speech is frank about challenges but ultimately optimistic about overcoming them.",
+          "standards": ["RI.4"]
+        },
+        {
+          "number": 13,
+          "questionText": "Which of the following lines from the speech most strongly support your response to question 12? Choose TWO responses.",
+          "choices": [
+            "A) \"This is preeminently the time to speak the truth, the whole truth, frankly and boldly.\"",
+            "B) \"They have no vision, and when there is no vision the people perish.\"",
+            "C) \"Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.\"",
+            "D) \"I shall presently urge upon a new Congress in special session detailed measures for their fulfillment, and I shall seek the immediate assistance of the several States.\"",
+            "E) \"We are, I know, ready and willing to submit our lives and property to such discipline, because it makes possible a leadership which aims at a larger good.\""
+          ],
+          "correctAnswer": ["A", "E"],
+          "explanationText": "The words 'frankly' and 'boldly' in choice A show Roosevelt's honesty and optimism, and the words 'ready and willing' and 'discipline' in choice E are 'candid' in admitting that it won't be easy, while 'aims at a larger good' is about working towards and believing that the future will be good, which is 'optimistic'.",
+          "standards": ["RI.1"]
+        },
+        {
+          "number": 14,
+          "questionText": "What is the primary rhetorical appeal used in Roosevelt’s famous line from paragraph 1: \"The only thing we have to fear is fear itself\"?",
+          "choices": [
+            "A) Ethos, or appeal based on character or credibility",
+            "B) Logos, or appeal to logic",
+            "C) Pathos, or appeal to emotion",
+            "D) All of the above"
+          ],
+          "correctAnswer": "C",
+          "explanationText": "The phrase appeals to the emotions of the audience by confronting their fears directly.",
+          "standards": ["RI.6"]
+        },
+        {
+          "number": 15,
+          "questionText": "What connections does Roosevelt make between the country’s economic prosperity and social values in paragraphs 6-8?",
+          "choices": [
+            "A) He believes that the nation’s problems go beyond monetary to moral challenges; he suggests that the country’s economic failures have been caused largely by ethical wrongdoings and that restoration must also go beyond economic to moral invigoration.",
+            "B) He believes a decline in moral values among the American people has led to the monetary problems of the Depression, and that Americans will only be truly happy when they behave in a more ethical manner.",
+            "C) He believes that moral happiness leads to economic success, and that Americans can restore the economy by focusing on joy and creative efforts.",
+            "D) He believes that the value placed on economic prosperity and material goods has been renewed among the American people, and this will lead to further joy and feelings of achievement."
+          ],
+          "correctAnswer": "A",
+          "explanationText": "Roosevelt connects economic decline with moral failings and emphasizes that recovery must address both.",
+          "standards": ["RI.5"]
+        },
+        {
+          "number": 16,
+          "questionText": "Which of the following choices BEST represent Roosevelt’s broad plan for restoring the American economy as outlined in paragraphs 10-12? Choose the response that most strongly conveys both his ideas and the order in which he presents them.",
+          "choices": [
+            "A) FDR’s first priority is to create jobs for the unemployed; next, introduce large infrastructure projects to help citizens in both rural and urban areas; and finally, more closely monitor how money is spent by both banks and individual citizens.",
+            "B) FDR’s first priority is to create jobs for the unemployed; next, correct the population imbalance which had people overly concentrated in urban areas; and finally, begin close government supervision of the banking industry.",
+            "C) FDR’s first priority is to create jobs for the unemployed; next, more closely monitor the banking industry; and finally, stabilize the American currency.",
+            "D) FDR’s first priority is to more closely monitor the American financial system; next, create jobs for the unemployed; and finally, migrate more citizens from urban industrial areas to small towns and farms for better use of the land and increased agricultural production."
+          ],
+          "correctAnswer": "B",
+          "explanationText": "Roosevelt outlines first jobs, then redistribution from urban centers to land, then banking oversight.",
+          "standards": ["RI.3"]
+        },
+        {
+          "number": 17,
+          "questionText": "According to paragraph 14, what argument does Roosevelt use to support his approach to restore international trade?",
+          "choices": [
+            "A) He argues that restoring world trade must be the first priority in order to fix the U.S. economy.",
+            "B) He argues that rebuilding international trade is equally important to restoring the U.S. economy.",
+            "C) He argues that no expense or effort should be spared in order to restore the international economy.",
+            "D) He argues that, while he will work diligently to rebuild world trade, restoring the U.S. economy must come first."
+          ],
+          "correctAnswer": "D",
+          "explanationText": "Roosevelt emphasizes that national recovery is more urgent than international trade, though he supports both.",
+          "standards": ["RI.8"]
+        },
+        {
+          "number": 18,
+          "questionText": "What argument does FDR make regarding the Constitution in paragraphs 19-22? Choose the BEST response.",
+          "choices": [
+            "A) The Constitution is broad and flexible enough to enable America to meet any challenge, including those of the current crisis.",
+            "B) Though the Constitution is broad and flexible enough to meet virtually any challenge, it must be amended in order for America to resolve the current financial emergency.",
+            "C) Though the Constitution is broad and flexible enough to meet virtually any challenge, it may be necessary to use expanded executive powers as would be used in time of war in order to deal with the current national emergency.",
+            "D) The Constitution has, until this moment, been broad and flexible enough to meet any challenge; however, it has since become outdated and in need of change to provide greater executive powers to the president."
+          ],
+          "correctAnswer": "C",
+          "explanationText": "FDR states the Constitution is adaptable but acknowledges he may need broad executive power akin to wartime.",
+          "standards": ["RI.8"]
+        },
+        {
+          "number": 19,
+          "questionText": "Which choice BEST describes the connection between the inaugural address and the photograph?",
+          "choices": [
+            "A) The photograph captures a full picture of the inauguration from the perspective of the president and his dignitaries looking upon the American people.",
+            "B) The photograph captures the historic inauguration from the perspective of the American audience looking up at their new president and the dignitaries surrounding him.",
+            "C) The photograph illustrates the patriotism of the crowds of people at the inauguration.",
+            "D) The photograph focuses primarily on the expression on the face of the new president."
+          ],
+          "correctAnswer": "B",
+          "explanationText": "The photograph complements the speech by showing the inauguration through the people’s perspective.",
+          "standards": ["RI.7"]
+        },
+        {
+          "number": 20,
+          "questionText": "What is the meaning of the word curtailment in this sentence from Roosevelt’s address?\n\"Values have shrunken to fantastic levels; taxes have risen; our ability to pay has fallen; government of all kinds is faced by serious curtailment of income…\"",
+          "choices": [
+            "A) Boost or expansion",
+            "B) Merger or union",
+            "C) Theft or seizure",
+            "D) Reduction or restriction"
+          ],
+          "correctAnswer": "D",
+          "explanationText": "\"Curtailment\" means reduction or restriction, describing decreased government revenues.",
+          "standards": ["RI.4"]
+        },
+        {
+          "number": 21,
+          "questionText": "How would the meaning of this sentence from Roosevelt’s address change if he had used the phrase suffer instead of the word perish? \n\"They have no vision, and when there is no vision the people perish.\"",
+          "choices": [
+            "A) The word perish emphasizes the destructive, life-threatening nature of a lack of vision.",
+            "B) The word perish lessens the people’s suffering, making their difficulties seem more manageable.",
+            "C) The word perish generates a feeling of empathy among listeners. Suffer would do the same.",
+            "D) The word perish is an appeal to logic. Suffer is an appeal to emotion."
+          ],
+          "correctAnswer": "A",
+          "explanationText": "Perish underscores death or destruction, much stronger than the softer connotation of suffer.",
+          "standards": ["RI.4"]
+        },
+        {
+          "number": 22,
+          "questionText": "How does FDR’s use of rhetorical device in the following line from paragraph 18 help to achieve his purpose? \"With this pledge taken, I assume unhesitatingly the leadership of this great army of our people dedicated to a disciplined attack upon our common problems.\"",
+          "choices": [
+            "A) He uses personification to explain how the country must \"attack\" its problems.",
+            "B) He uses allusion to describe the universal problem of conflict.",
+            "C) He uses a metaphor to compare fixing the nation’s problems with fighting an enemy at war.",
+            "D) He uses an idiom to relate to his audience about their common issues."
+          ],
+          "correctAnswer": "C",
+          "explanationText": "Roosevelt likens confronting national problems to waging war, a metaphor inspiring unity and urgency.",
+          "standards": ["RI.6"]
+        }
+      ]
+    }
+  },
+
+  {
+    "section": {
+      "name": "Part III",
+      "directions": "Read the following poem. Then answer the questions that follow.",
+      "label": "Analyzing Poetry/Multiple Mediums",
+      "title": "The New Colossus",
+      "author": "Emma Lazarus, 1883",
+      "context": "Published in 1883, 'The New Colossus' is a poem by Emma Lazarus. Three years before the Statue of Liberty was dedicated in New York Harbor, Lazarus was asked to write a poem as part of an arts festival to help raise money for the statue's pedestal. The poem's title, 'The New Colossus,' was inspired by 'The Colossus of Rhodes' -- the ancient statue of the Greek sun-god Helios on the island of Rhodes. It was not until 1903 -- nearly 20 years after Lazarus' death -- that the bronze plaque bearing the iconic sonnet would be added to the statue's pedestal.",
+      "pictureURL": "test_pictures/statue-of-liberty.jpg",
+      "passage": "1     Not like the (brazen) giant of Greek fame,\n2     With conquering limbs astride from land to land;\n3     Here at our sea-washed, sunset gates shall stand\n4     A mighty woman with a torch, whose flame\n5     Is the imprisoned lightning, and her name\n6     Mother of (Exiles). From her beacon-hand\n7     Glows world-wide welcome; her mild eyes command\n8     The air-bridged harbor that twin cities frame.\n9     \\\"Keep, ancient lands, your storied pomp!\\\" cries she\n10     With silent lips. \\\"Give me your tired, your poor,\n11     Your huddled masses yearning to breathe free,\n12     The wretched refuse of your teeming shore.\n13     Send these, the homeless, (tempest)-tost to me,\n14     I lift my lamp beside the golden door!\"\n\nVocabulary definitions: \n(1) Brazen: bold; without shame or humility\n(2) Fame: a reference to the Colossus of Rhodes, a statue of the Greek titan-god of the sun Helios, erected in the city of Rhodes in Greece in 280 BC. One of the Seven Wonders of the Ancient World, it was constructed to celebrate a war victory.\n(3) Exile: a person who has been forced to leave his or her native country for political or punitive reasons\n(4) Tempest: a violent, windy storm",
+      "questions": [
+        {
+          "number": 23,
+          "questionText": "What is the significance of the image to the right of the poem?",
+          "choices": [
+            "A) The image depicts the Statue of Liberty, the main subject matter of the poem.",
+            "B) The image depicts the Statue of Liberty, a statue similar the ones referred to in the poem.",
+            "C) The image of the Statue of Liberty is intended convey the victorious tone of the poem.",
+            "D) The image of the Statue of Liberty captures the theme of freedom conveyed in the poem."
+          ],
+          "correctAnswer": "A",
+          "explanationText": "The image shows the Statue of Liberty, which is exactly what the poem is about.",
+          "standards": ["RL.7"]
+        },
+        {
+          "number": 24,
+          "questionText": "According to the poem, what is the main difference between the original Colossus and the new Colossus? Choose the BEST response.",
+          "choices": [
+            "A) The old statue is large and historic, whereas the new one is small and unknown.",
+            "B) The old statue is extravagant and intimidating, whereas the new one is humble and welcoming.",
+            "C) The old statue is a famous Greek figure, whereas the new one is an unknown woman from an unknown country.",
+            "D) The old statue is silent and somber, whereas the new one is friendly and talkative"
+          ],
+          "correctAnswer": "B",
+          "explanationText": "The Colossus of Rhodes was built to look powerful and intimidating, like a giant guard. The Statue of Liberty is different — it’s welcoming and invites people in, especially immigrants.",
+          "standards": ["RL.2"]
+        },
+        {
+          "number": 25,
+          "questionText": "Which lines from the poem best support the answer to the previous question? Choose TWO responses.",
+          "choices": [
+            "A) “Not like the brazen giant of Greek fame, / With conquering limbs astride from land to land”",
+            "B) “Here at our sea-washed, sunset gates shall stand / A mighty woman with a torch”",
+            "C) “…whose flame Is the imprisoned lightning, and her name”",
+            "D) “‘Keep, ancient lands, your storied pomp!’ cries she / With silent lips. ‘Give me your tired, your poor, / Your huddled masses yearning to breathe free’"
+          ],
+          "correctAnswer": ["A", "D"],
+          "explanationText": "Line A shows that the new statue is not a scary, conquering giant like the old one. Line D shows the welcoming message of the new statue, asking for the tired and poor to come. Together, these lines show the contrast: the old was intimidating, the new is kind and open.",
+          "standards": ["RI.1"]
+        },
+        {
+          "number": 26,
+          "questionText": "What is the meaning of the term 'storied pomp' as used in line 9? Choose the BEST response.",
+          "choices": [
+            "A) Historic monument",
+            "B) Showy display of extravagance",
+            "C) Fairy-tale like history",
+            "D) Well-known power"
+          ],
+          "correctAnswer": "B",
+          "explanationText": "‘Storied pomp’ means fancy and showy displays of wealth and power. It’s like saying, ‘Keep your flashy parades and fancy crowns, we don’t need that here.’",
+          "standards": ["RL.4"]
+        },
+        {
+          "number": 27,
+          "questionText": "Which of the choices below represent a central theme of the poem? Choose the BEST response.",
+          "choices": [
+            "A) The speaker compares the ancient Greek Colossus to the modern Statue of Liberty.",
+            "B) The Statue of Liberty is as important as any statue that has come before it.",
+            "C) Freedom",
+            "D) America should be defined by its welcoming acceptance of immigrants."
+          ],
+          "correctAnswer": "D",
+          "explanationText": "The poem is less about comparing statues and more about what the Statue of Liberty stands for — welcoming immigrants and showing that America is a place for freedom and new beginnings.",
+          "standards": ["RL.2"]
+        },
+        {
+          "number": 28,
+          "questionText": "Which of the following choices BEST describes the tone of the poem?",
+          "choices": [
+            "A) Hopeful and idealistic",
+            "B) Critical and cautionary",
+            "C) Objective and matter-of-fact",
+            "D) All of the above"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "The poem feels uplifting and full of hope. It paints the Statue of Liberty as a shining symbol of welcome and freedom, like a bright light guiding people to a better life.",
+          "standards": ["RL.4"]
+        }
+      ]
+    }
+  },
+
+
+  {
+    "section": {
+      "name": "Part IV",
+      "directions": "Choose the correct response for each question.",
+      "label": "Conventions of Language",
+      "title": "",
+      "author": "",
+      "context": "",
+      "pictureURL": "",
+      "passage": "",
+      "questions": [
+        {
+          "number": 29,
+          "questionText": "We can go to the library to do some research______ Sundays are usually quiet there.",
+          "choices": [
+            "A) ;",
+            "B) ,",
+            "C) ?",
+            "D) :"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "The semicolon (;) correctly joins two related independent clauses. A comma here would be a run-on, and the others don’t fit.",
+          "standards": ["L.2"]
+        },
+        {
+          "number": 30,
+          "questionText": "The cat scurried across the yard, pounced on a patch of grass, and ________________________.",
+          "choices": [
+            "A) jumping over the fence.",
+            "B) to jump over the fence.",
+            "C) jumped over the fence.",
+            "D) over the fence."
+          ],
+          "correctAnswer": "C",
+          "explanationText": "The verbs must stay parallel: scurried, pounced, and jumped. Only 'jumped' keeps the same verb form.",
+          "standards": ["L.1"]
+        },
+        {
+          "number": 31,
+          "questionText": "Which one of the following sentences is punctuated correctly?",
+          "choices": [
+            "A) Maureen read the essay; but she did not agree with its thesis.",
+            "B) Maureen read the essay: but she did not agree with its thesis.",
+            "C) Maureen read the essay, but she did not agree with its thesis.",
+            "D) Maureen read the essay but she did not agree with its thesis."
+          ],
+          "correctAnswer": "C",
+          "explanationText": "A comma before 'but' correctly joins two independent clauses. The semicolon and colon are wrong here, and leaving out the comma makes it a run-on.",
+          "standards": ["L.2"]
+        },
+        {
+          "number": 32,
+          "questionText": "Which one of the following sentences is spelled correctly throughout?",
+          "choices": [
+            "A) Amir believed he should definately seperate his everyday supplies.",
+            "B) Amir beleived he should definately separate his every day supplies.",
+            "C) Amir believed he should definitely seperate his every day supplies.",
+            "D) Amir believed he should definitely separate his everyday supplies."
+          ],
+          "correctAnswer": "D",
+          "explanationText": "‘Definitely’ and ‘separate’ are often misspelled, and ‘everyday’ is correct as one word in this context. Choice D fixes all errors.",
+          "standards": ["L.2"]
+        },
+        {
+          "number": 33,
+          "questionText": "Which one of the following sentences uses correct punctuation and parallel structure?",
+          "choices": [
+            "A) The judgment seemed unfair, there was no opportunity to file my taxes, request an extension, or explain the situation.",
+            "B) The judgment seemed unfair: there was no opportunity to file my taxes, an extension or explain the situation.",
+            "C) The judgment seemed unfair; there was no opportunity to file my taxes, request an extension, or explain the situation.",
+            "D) The judgment seemed unfair; there was no opportunity to file my taxes, an extension or explain the situation."
+          ],
+          "correctAnswer": "C",
+          "explanationText": "Parallel structure means the list should have the same form: 'file my taxes, request an extension, explain the situation.' The semicolon also correctly joins the clauses.",
+          "standards": ["L.1"]
+        },
+        {
+          "number": 34,
+          "questionText": "Neither her friends nor her family _______________ that holiday.",
+          "choices": [
+            "A) celebrates",
+            "B) celebrate",
+            "C) celebration",
+            "D) celebratory"
+          ],
+          "correctAnswer": "A",
+          "explanationText": "With 'neither…nor,' the verb agrees with the closer subject. Here, 'family' is singular, so the correct verb is 'celebrates.'",
+          "standards": ["L.1"]
+        },
+        {
+          "number": 35,
+          "questionText": "Which one of the following choices is punctuated correctly?",
+          "choices": [
+            "A) There are three kinds of juices on the menu: orange, grapefruit, and pineapple.",
+            "B) There are three kinds of juices on the menu; orange, grapefruit, and pineapple.",
+            "C) There are three kinds of juices on the menu, orange, grapefruit, and pineapple.",
+            "D) There are three kinds of juices on the menu. Orange, grapefruit, and pineapple."
+          ],
+          "correctAnswer": "A",
+          "explanationText": "A colon (:) is used to introduce a list. The other options either misuse punctuation or break the sentence incorrectly.",
+          "standards": ["L.2"]
+        }
+      ]
+    }
+  }
+]  

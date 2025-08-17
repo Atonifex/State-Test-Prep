@@ -1,0 +1,336 @@
+Vision and MVP
+•	Product: District-focused standards-based practice app for brief, frequent sessions; launch with South Carolina English II (Reading Comprehension, Grammar, Essay Writing), then expand to Algebra I, US History, Biology and other states.
+•	Users: Students (practice + tutor), Teachers (assign + monitor), District admins (reporting/rosters).
+•	MVP
+•	State/Test/Subject/Standard selection; practice by standard.
+•	Question types: MCQ with optional passages/images; Essay (free response with word cap).
+•	Assign standards to a class within a date window.
+•	Analytics: accuracy and time-on-task overall and by standard, with views for district, school, class, and student.
+•	Auth: Google SSO only (Google Workspace for Education supported).
+•	AI Tutor: text chat; optional STT and TTS (non realtime), prioritizing cost → latency → quality.
+•	Offline tolerance: graceful caching for practice; sync attempts when back online.
+•	Compliance: FERPA-minded storage, access control, and retention; use null, not undefined.
+Content JSON import shape (reference for later)
+ts
+Apply
+// Content import format (reference only; do not implement ingestion yet)
+//
+// {
+//   "state": "SC",
+//   "testId": "english-ii",
+//   "subject": "English II",
+//   "version": "2025.1",
+//   "sections": [
+//     {
+//       "title": "Reading Comprehension",
+//       "timeLimitSec": 900, // optional per-section timer
+//       "questions": [
+//         {
+//           "type": "mcq",
+//           "standard": "E2.RC.1.1",
+//           "difficulty": "Easy" | "Medium" | "Hard",
+//           "passage": "optional passage text",
+//           "question": "stem text...",
+//           "choices": ["A) ...", "B) ...", "C) ...", "D) ..."],
+//           "answer": "B",
+//           "explanation": "why this is correct...",
+//           "assets": [{ "type": "image", "url": "https://..." }]
+//         },
+//         {
+//           "type": "essay",
+//           "standard": "E2.W.2.3",
+//           "difficulty": "Medium",
+//           "prompt": "Write an essay that...",
+//           "wordLimit": 500, // may change later
+//           "explanation": "rubric or exemplar guidance"
+//         }
+//       ]
+//     },
+//     { "title": "Grammar", "questions": [ /* similar MCQ items; may include passage */ ] },
+//     { "title": "Essay Writing", "questions": [ /* essay items only */ ] }
+//   ]
+// }
+Architecture overview
+•	Frontend: Next.js 14 (App Router) + TypeScript + Tailwind. Optional Headless UI/shadcn later.
+•	Backend/infra: Firebase Auth (Google provider), Firestore, optional Cloud Functions for aggregations, Vercel for hosting.
+•	Multi-tenant model: districts -> schools -> classrooms -> users. Users can belong to multiple classrooms; roles: student | teacher | districtAdmin.
+Core data types (headless, shared)
+ts
+Apply
+export type Role = 'student' | 'teacher' | 'districtAdmin';
+export type Difficulty = 'Easy' | 'Medium' | 'Hard';
+export type QuestionType = 'mcq' | 'essay';
+export interface StandardRef {
+  state: string;      // 'SC'
+  testId: string;     // 'english-ii'
+  subject: string;    // 'English II'
+  standardId: string; // 'E2.RC.1.1'
+}
+export interface Standard extends StandardRef {
+  description: string;
+  gradeBand?: string | null;
+  version: string;
+}
+export interface McqQuestion extends StandardRef {
+  id: string;
+  type: 'mcq';
+  difficulty: Difficulty;
+  passage?: string | null;
+  question: string;
+  choices: string[]; // prefixed labels optional (A), (B) ...
+  answer: string;    // 'A'|'B'|'C'|'D' or index
+  explanation?: string | null;
+  assets?: { type: 'image' | 'audio'; url: string }[] | null;
+}
+export interface EssayQuestion extends StandardRef {
+  id: string;
+  type: 'essay';
+  difficulty: Difficulty;
+  prompt: string;
+  wordLimit: number; // e.g., 500
+  explanation?: string | null; // rubric/exemplar
+}
+export type Question = McqQuestion | EssayQuestion;
+export interface Attempt {
+  id: string;
+  userId: string;
+  state: string;
+  testId: string;
+  subject: string;
+  standardId: string;
+  questionId: string;
+  questionType: QuestionType;
+  startedAt: number;     // ms epoch
+  submittedAt: number;   // ms epoch
+  timeSpentSec: number;  // derived
+  correct: boolean | null; // null for essay until scored
+  selectedChoice?: string | null;
+  freeResponse?: string | null;
+  explanationViewed: boolean;
+  tutorUsed: boolean;
+  classroomId: string | null;
+  assignmentId: string | null;
+  meta?: { device?: string | null } | null;
+}
+export interface Classroom {
+  id: string;
+  name: string;
+  districtId: string;
+  schoolId: string;
+  teacherId: string;
+  subject: string;
+  state: string;
+  testId: string;
+}
+export interface Assignment {
+  id: string;
+  classroomId: string;
+  name: string;
+  standardIds: string[];
+  startDate: number; // ms epoch
+  dueDate: number;   // ms epoch
+  timePerDayMin?: number | null;
+  targetQuestions?: number | null;
+}
+export interface UserProfile {
+  uid: string;
+  email: string;
+  displayName: string | null;
+  role: Role;
+  districtId: string | null;
+  schoolId: string | null;
+  classroomIds: string[]; // membership
+  allowedDomains?: string[] | null; // for domain-restricted SSO
+}
+Firestore layout (MVP)
+•	states/{state}/tests/{testId}/standards/{standardId}
+•	states/{state}/tests/{testId}/questions/{questionId}
+•	districts/{districtId}
+•	districts/{districtId}/schools/{schoolId}
+•	districts/{districtId}/classrooms/{classroomId}
+•	districts/{districtId}/classrooms/{classroomId}/assignments/{assignmentId}
+•	users/{uid} (profile)
+•	users/{uid}/attempts/{attemptId} (with classroomId and assignmentId context)
+•	Optionally mirror attempts under classroom for teacher queries later:
+•	districts/{districtId}/classrooms/{classroomId}/attempts/{attemptId} with userId
+Composite indexes to create
+•	states.state + tests.testId + standards.standardId (browse standards)
+•	states.state + tests.testId + questions.standardId (fetch practice items)
+•	users.userId + attempts.testId + attempts.standardId + attempts.submittedAt desc
+•	districts.districtId + classrooms.classroomId + assignments.assignmentId
+•	For analytics: attempts filtered by classroomId, assignmentId, standardId, submittedAt
+Security and auth
+•	Google SSO: Use Firebase Google provider. School/district emails use Google Workspace for Education—same OAuth flow. Enforce domain allowlists per district if needed:
+•	On signup, check email.split('@')[1] against district’s allowedDomains. Reject or queue for approval if mismatch.
+•	Security Rules principles
+•	Students can read/write their users/{uid} and users/{uid}/attempts/*.
+•	Teachers can read data scoped to their classroomIds (attempts filtered by classroomId).
+•	District admins can read within districtId.
+•	Use a users/{uid} doc for role and memberships; optionally add custom claims for fast checks.
+•	Prefer null for missing values; forbid undefined.
+Sketch:
+js
+Apply
+// Pseudocode for Firestore Rules concepts (to be implemented later)
+function isUser(uid)       { return request.auth != null && request.auth.uid == uid }
+function profile(uid)      { return get(/databases/$(db)/documents/users/$(uid)).data }
+function hasRole(uid, r)   { return profile(uid).role == r }
+function inClass(uid, cid) { return profile(uid).classroomIds.hasAny([cid]) }
+function sameDistrict(uid, did) { return profile(uid).districtId == did }
+// users/{uid}
+allow read, update: if isUser(resource.id);
+allow create: if request.auth != null;
+// users/{uid}/attempts/{aid}
+allow read, write: if isUser(resource.parent().id);
+// districts/{did}/classrooms/{cid}
+allow read: if hasRole(request.auth.uid, 'teacher') && sameDistrict(request.auth.uid, did) && inClass(request.auth.uid, cid)
+         || hasRole(request.auth.uid, 'districtAdmin') && sameDistrict(request.auth.uid, did);
+// districts/{did}/classrooms/{cid}/assignments/{aid}
+allow read, write: if hasRole(request.auth.uid, 'teacher') && inClass(request.auth.uid, cid) && sameDistrict(request.auth.uid, did)
+                || hasRole(request.auth.uid, 'districtAdmin') && sameDistrict(request.auth.uid, did);
+UX, routes, and flows
+•	Routes (App Router)
+•	/select: choose state -> test -> subject
+•	/standards: list standards for the current selection; filter; start practice
+•	/practice/[standardId]: question player (MCQ + Essay), hints/explanations, AI tutor button, record attempts
+•	/assignments: teacher creates/edits assignments
+•	/classrooms: manage classrooms and roster import
+•	/analytics: tabs for District, School, Class, Student (filter by selection, date range)
+•	/auth/callback: Google sign-in handler (if needed)
+•	Contexts
+•	AssessmentContext: { state, testId, subject, standardId }
+•	UserContext: wraps Firebase Auth user + profile doc; normalizes missing fields to null
+•	TutorContext: builds subject-aware system prompt; provides ask/stream methods
+•	Accessibility
+•	Text-to-speech required: use Web Speech Synthesis API by default; server-side TTS fallback later.
+•	Keyboard navigation optional now; ensure focus-visible and semantic headings/labels.
+AI Tutor, STT, and TTS
+•	Prompting: Subject-aware rules; grounded to state/test/standard; avoid LaTeX for ELA unless needed; cite the standard description when available.
+•	STT strategy (cost-first)
+•	Tier 1: Browser MediaRecorder + upload to API → OpenAI Whisper or faster/cheaper alternative; non streaming (record → send → transcribe).
+•	Tier 2: Add streaming STT later if needed (Google STT/Azure). iPad Safari lacks built-in SpeechRecognition; server STT ensures cross-device support.
+•	TTS strategy (cost-first)
+•	Tier 1: Browser Speech Synthesis API (free, low latency; voice varies by device).
+•	Tier 2: Server TTS (e.g., ElevenLabs/Azure/AWS Polly) for higher quality/consistency; cache audio per message for repeated playbacks.
+•	Latency controls
+•	Short tutor responses, summarization; pre-warm model; debounce user mic control.
+Offline tolerance (MVP)
+•	Enable Firestore persistence in the client for attempts and questions.
+•	Queue attempts writes offline; reconcile on reconnect with idempotent attemptId.
+•	Cache selected standards/questions in IndexedDB; fall back gracefully if assets missing.
+•	Optional: Next.js service worker for route and asset caching.
+Rosters (CSV import)
+•	CSV columns (MVP): studentId, firstName, lastName, email, grade, schoolId, classroomName
+•	Flow
+•	Teacher uploads CSV in /classrooms.
+•	Client parses (Papaparse), shows preview + validation.
+•	On submit:
+•	Create users/{uid} profiles if not exist (derive uid via Firebase Auth only when they sign in; otherwise create “pending user” records keyed by email).
+•	Add to districts/{districtId}/schools/{schoolId} if needed.
+•	Create/find classroom; update classroomIds for those users.
+•	Students sign in with Google; on first sign-in, link their profile by email.
+Analytics (MVP)
+•	Metrics
+•	Accuracy: correct / attempted.
+•	Counts: # correct, # attempted.
+•	Time-on-task: sum timeSpentSec by filter.
+•	Views
+•	District → School → Class → Student drill-down.
+•	Filters: date range, subject, standard, assignment.
+•	Implementation
+•	Phase 1: client-queried and computed with indexed queries + pagination.
+•	Phase 2: daily Cloud Function pre-aggregations into analytics/* docs for faster dashboards.
+Assignments (MVP)
+•	Create assignment with name, standards, date window, optional target counts/time.
+•	Students see assignment tag in practice flow; attempts link to assignmentId.
+•	Dashboard shows completion vs targets; accuracy by standard within assignment.
+Project structure (initial)
+text
+Apply
+state-test-prep-app/
+  apps/
+    district-prep/            # Next.js 14 + Tailwind
+      src/
+        app/
+          layout.tsx
+          page.tsx
+          select/page.tsx
+          standards/page.tsx
+          practice/[standardId]/page.tsx
+          assignments/page.tsx
+          classrooms/page.tsx
+          analytics/page.tsx
+        components/
+          QuestionPlayer/
+          Tutor/
+          Analytics/
+        contexts/
+          AssessmentContext.tsx
+          UserContext.tsx
+          TutorContext.tsx
+        lib/
+          firebase.ts
+          firestore.ts
+          validators/
+        styles/
+          globals.css
+      public/
+      .env.local.example
+  packages/                    # optional later
+    models/
+    ui-core/
+Step-by-step build plan (you review, then I implement)
+1) Scaffold and config
+•	Create Next.js 14 App Router project with Tailwind; add ESLint/Prettier.
+•	Add Firebase Web SDK; initialize firebase.ts.
+•	Add Google Auth UI and profile sync to users/{uid}; enforce null defaults.
+•	Add .env.local keys for Firebase; set Vercel project.
+2) Core contexts and state
+•	Implement AssessmentContext with selection persisted to localStorage.
+•	Implement UserContext wrapping Firebase Auth and users/{uid} doc; normalize { role, districtId, schoolId, classroomIds } with null defaults.
+•	Implement TutorContext with a subject-aware prompt builder and stub API client.
+3) Routing and pages
+•	/select: pick state/test/subject; save in AssessmentContext.
+•	/standards: query standards from Firestore; filter; CTA to practice.
+•	/practice/[standardId]:
+•	Load a small batch of questions for the standard.
+•	Render MCQ or Essay forms; enforce essay word cap.
+•	Record attempts with latency-tolerant writes.
+•	Show explanation and offer Tutor.
+4) Content ingestion (script)
+•	Define Zod schemas for Standard and Question (MCQ/Essay).
+•	Write Node script to validate provided JSON and upload to Firestore under states/*.
+•	Duplicate detection by hash of normalized stem+choices/prompt.
+5) Assignments and classrooms
+•	/classrooms: create/manage classrooms; CSV roster import with validation preview.
+•	/assignments: create assignment (standards, date window); list per classroom.
+6) Analytics v1
+•	/analytics: tabbed dashboard with filters; compute accuracy/time-on-task client-side via queries and indexes.
+•	Prepare daily aggregation function (deferred if time).
+7) Tutor + STT/TTS v1
+•	System prompt uses state/test/standard, student’s attempt context, and standard description.
+•	Text chat first; add STT capture via MediaRecorder → upload to server route → Whisper transcription; add TTS via Web Speech Synthesis with graceful fallback.
+8) Offline and polish
+•	Enable Firestore persistence; queue attempts; retry on reconnect.
+•	A11y basics: semantic HTML, labels, ARIA for TTS controls, color contrast, focus-visible.
+Environment and configuration
+•	.env.local: Firebase keys; optional ALLOWED_DOMAINS="school.k12.sc.us,another.edu"; API keys for STT/TTS later.
+•	Feature flags: NEXT_PUBLIC_ENABLE_TUTOR, NEXT_PUBLIC_ENABLE_STT, NEXT_PUBLIC_ENABLE_TTS.
+Best practices we’ll follow
+•	Data-driven taxonomies; no hardcoding standards in UI.
+•	Validate all imported content with Zod; reject on mismatch; log reasons.
+•	Use null not undefined in Firestore; normalize on write.
+•	Keep business logic headless (hooks/utils) and style with Tailwind in the app layer.
+•	Index queries you depend on; test read paths with production-like data volumes.
+Alternatives considered
+•	STT/TTS
+•	A: Browser-only (free, variable quality). Pros: cheapest; Cons: inconsistent voices, no STT on iOS Safari.
+•	B: Server-only (Polly/ElevenLabs + Whisper). Pros: consistent; Cons: cost, latency.
+•	C: Hybrid (Recommended): browser TTS default; server STT (non streaming); upgrade to server TTS where needed.
+•	Attempt storage
+•	A: Only under users/{uid} (simple; add composite queries).
+•	B: Mirror to classroom path for teacher queries (better performance; more writes). Recommended B for scale—implement mirroring in a function later.
+•	Analytics
+•	A: Client-side compute (fast to ship).
+•	B: Pre-aggregations in Firestore via scheduled function (faster dashboards). Recommended phased approach: A now, B later.
+
