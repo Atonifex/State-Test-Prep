@@ -71,7 +71,19 @@ export interface TestQuestion {
   choices: string[];
   correctAnswer: string | string[]; // Can be single answer or array for multi-select
   explanationText: string;
-  standards: string[];
+  standards: {
+    common_core: Array<{
+      code: string;
+      description: string;
+    }>;
+    states: {
+      [stateCode: string]: Array<{
+        code: string;
+        description: string;
+      }>;
+    };
+  };
+  pictureURL?: string | null; //URL of the picture for questions with graphs / charts / etc.
 }
 
 // Legacy types for demo questions - keeping for backward compatibility

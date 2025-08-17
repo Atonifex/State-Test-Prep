@@ -433,7 +433,13 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
                       {currentQuestion.explanationText}
                     </p>
                     <div className="mt-3 text-xs text-blue-600">
-                      <span className="font-medium">Standards:</span> {currentQuestion.standards.join(', ')}
+                        <span className="font-medium">Common Core Standards:</span> {currentQuestion.standards?.common_core?.map(s => s.code).join(', ')}
+                        {currentQuestion?.standards?.states?.SC && (
+                            <>
+                            <br />
+                            <span className="font-medium">South Carolina State Standards:</span> {currentQuestion?.standards?.states?.SC?.map(s => s.code).join(', ')}
+                            </>
+                        )}
                     </div>
                   </div>
                 </motion.div>
@@ -498,12 +504,16 @@ export const QuestionPlayer: React.FC<QuestionPlayerProps> = ({
           </motion.div>
         )}
 
+{/*Standards: ${currentQuestion.standards?.common_core?.map(s => `${s.code}: ${s.description}`).join(', ') || 'General'}
+
+The Standards below add both Common Core and South Carolina State Standards. In the future this should be customized to teh active state, matching with the user.*/}
         {/* Voice Tutor - Always available floating button */}
         <VoiceTutor questionContext={`
             Question: ${currentQuestion.questionText}
             Passage: ${section.passage ? section.passage.substring(0, 500) + '...' : 'No passage'}
             Subject: ${subject}
-            Standards: ${currentQuestion.standards?.join(', ') || 'General'}
+            
+            Standards: ${currentQuestion.standards?.common_core?.map(s => s.code).join(', ')} - ${currentQuestion.standards?.states?.SC?.map(s => s.code).join(', ') || 'N/A'}
             Section: ${section.name} - ${section.label}
             ${section.title ? `Title: ${section.title}` : ''}
             ${section.author ? `Author: ${section.author}` : ''}

@@ -1,1125 +1,1126 @@
 [
     {
-      "section": {
-        "name": "Part I",
-        "directions": "Read the following short story. Then answer the questions that follow. ",
-        "label": "Analyzing Literature/Short Story",
-        "title": "The Story of an Hour",
-        "author": "Kate Chopin",
-        "year": 1894,
-        "passage": "1     Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband's death.\n2     It was her sister Josephine who told her, in broken sentences; veiled hints that revealed in half concealing. Her husband's friend Richards was there, too, near her. It was he who had been in the newspaper office when intelligence of the railroad disaster was received, with Brently Mallard's name leading the list of \"killed.\" He had only taken the time to assure himself of its truth by a second telegram, and had hastened to forestall any less careful, less tender friend in bearing the sad message.\n3     She did not hear the story as many women have heard the same, with a paralyzed inability to accept its significance. She wept at once, with sudden, wild abandonment, in her sister's arms. When the storm of grief had spent itself she went away to her room alone. She would have no one follow her.\n4     There stood, facing the open window, a comfortable, roomy armchair. Into this she sank, pressed down by a physical exhaustion that haunted her body and seemed to reach into her soul.\n5     She could see in the open square before her house the tops of trees that were all aquiver with the new spring life. The delicious breath of rain was in the air. In the street below a peddler was crying his wares. The notes of a distant song which some one was singing reached her faintly, and countless sparrows were twittering in the eaves.\n6     There were patches of blue sky showing here and there through the clouds that had met and piled one above the other in the west facing her window.\n7     She sat with her head thrown back upon the cushion of the chair, quite motionless, except when a sob came up into her throat and shook her, as a child who has cried itself to sleep continues to sob in its dreams.\n8     She was young, with a fair, calm face, whose lines bespoke repression(1) and even a certain strength. But now there was a dull stare in her eyes, whose gaze was fixed away off yonder on one of those patches of blue sky. It was not a glance of reflection, but rather indicated a suspension of intelligent thought.\n9     There was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name. But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.\n10     Now her bosom rose and fell tumultuously. She was beginning to recognize this thing that was approaching to possess her, and she was striving to beat it back with her will--as powerless as her two white slender hands would have been. When she abandoned herself a little whispered word escaped her slightly parted lips. She said it over and over under her breath: \"free, free, free!\" The vacant stare and the look of terror that had followed it went from her eyes. They stayed keen and bright. Her pulses beat fast, and the coursing blood warmed and relaxed every inch of her body.\n11     She did not stop to ask if it were or were not a monstrous joy that held her. A clear and exalted perception enabled her to dismiss the suggestion as trivial. She knew that she would weep again when she saw the kind, tender hands folded in death; the face that had never looked save with love upon her, fixed and gray and dead. But she saw beyond that bitter moment a long procession of years to come that would belong to her absolutely. And she opened and spread her arms out to them in welcome.\n12     There would be no one to live for during those coming years; she would live for herself. There would be no powerful will bending hers in that blind persistence with which men and women believe they have a right to impose a private will upon a fellow-creature. A kind intention or a cruel intention made the act seem no less a crime as she looked upon it in that brief moment of illumination.\n13     And yet she had loved him--sometimes. Often she had not. What did it matter! What could love, the unsolved mystery, count for in the face of this possession of self-assertion which she suddenly recognized as the strongest impulse of her being!\n14     \"Free! Body and soul free!\" she kept whispering.\n15     Josephine was kneeling before the closed door with her lips to the keyhold, imploring for admission. \"Louise, open the door! I beg; open the door--you will make yourself ill. What are you doing, Louise? For heaven's sake open the door.\"\n16     \"Go away. I am not making myself ill.\" No; she was drinking in a very elixir(2) of life through that open window.\n17     Her fancy was running riot along those days ahead of her. Spring days, and summer days, and all sorts of days that would be her own. She breathed a quick prayer that life might be long. It was only yesterday she had thought with a shudder that life might be long.\n18     She arose at length and opened the door to her sister's importunities. There was a feverish(3) triumph in her eyes, and she carried herself unwittingly like a goddess of Victory. She clasped her sister's waist, and together they descended the stairs. Richards stood waiting for them at the bottom.\n19     Someone was opening the front door with a latchkey. It was Brently Mallard who entered, a little travel-stained, composedly carrying his grip-sack and umbrella. He had been far from the scene of the accident, and did not even know there had been one. He stood amazed at Josephine's piercing cry; at Richards' quick motion to screen him from the view of his wife.\n20     When the doctors came they said she had died of heart disease--of the joy that kills.\n\nVocabulary definitions:\n1. Repression: the quality of being subdued, suppressed, restrained or kept under control\n2. Elixir: a magical or medicinal potion\n3. Feverish: displaying frenzied or frantic excitement or energy",
-        "questions": [
-          {
-            "number": 1,
-            "questionText": "Which statement below BEST expresses a central theme of 'Story of an Hour'?",
-            "choices": [
-              "A) A woman’s life changes after she learns of her husband’s supposed death.",
-              "B) Just because a person cries does not mean he or she is sad.",
-              "C) A marriage or relationship can be oppressive to one’s sense of self.",
-              "D) Irony"
-            ],
-            "correctAnswer": "C",
-            "explanationText": "Louise’s reaction centers on relief at personal freedom from a constraining marriage, foregrounding oppression vs. selfhood.",
-            "standards": {
-              "common_core": [
+        "test_id": "Test 1",
+        "section": {
+            "name": "Part I",
+            "directions": "Read the following short story. Then answer the questions that follow. ",
+            "label": "Analyzing Literature/Short Story",
+            "title": "The Story of an Hour",
+            "author": "Kate Chopin",
+            "year": 1894,
+            "passage": "1     Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband's death.\n2     It was her sister Josephine who told her, in broken sentences; veiled hints that revealed in half concealing. Her husband's friend Richards was there, too, near her. It was he who had been in the newspaper office when intelligence of the railroad disaster was received, with Brently Mallard's name leading the list of \"killed.\" He had only taken the time to assure himself of its truth by a second telegram, and had hastened to forestall any less careful, less tender friend in bearing the sad message.\n3     She did not hear the story as many women have heard the same, with a paralyzed inability to accept its significance. She wept at once, with sudden, wild abandonment, in her sister's arms. When the storm of grief had spent itself she went away to her room alone. She would have no one follow her.\n4     There stood, facing the open window, a comfortable, roomy armchair. Into this she sank, pressed down by a physical exhaustion that haunted her body and seemed to reach into her soul.\n5     She could see in the open square before her house the tops of trees that were all aquiver with the new spring life. The delicious breath of rain was in the air. In the street below a peddler was crying his wares. The notes of a distant song which some one was singing reached her faintly, and countless sparrows were twittering in the eaves.\n6     There were patches of blue sky showing here and there through the clouds that had met and piled one above the other in the west facing her window.\n7     She sat with her head thrown back upon the cushion of the chair, quite motionless, except when a sob came up into her throat and shook her, as a child who has cried itself to sleep continues to sob in its dreams.\n8     She was young, with a fair, calm face, whose lines bespoke repression(1) and even a certain strength. But now there was a dull stare in her eyes, whose gaze was fixed away off yonder on one of those patches of blue sky. It was not a glance of reflection, but rather indicated a suspension of intelligent thought.\n9     There was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name. But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.\n10     Now her bosom rose and fell tumultuously. She was beginning to recognize this thing that was approaching to possess her, and she was striving to beat it back with her will--as powerless as her two white slender hands would have been. When she abandoned herself a little whispered word escaped her slightly parted lips. She said it over and over under her breath: \"free, free, free!\" The vacant stare and the look of terror that had followed it went from her eyes. They stayed keen and bright. Her pulses beat fast, and the coursing blood warmed and relaxed every inch of her body.\n11     She did not stop to ask if it were or were not a monstrous joy that held her. A clear and exalted perception enabled her to dismiss the suggestion as trivial. She knew that she would weep again when she saw the kind, tender hands folded in death; the face that had never looked save with love upon her, fixed and gray and dead. But she saw beyond that bitter moment a long procession of years to come that would belong to her absolutely. And she opened and spread her arms out to them in welcome.\n12     There would be no one to live for during those coming years; she would live for herself. There would be no powerful will bending hers in that blind persistence with which men and women believe they have a right to impose a private will upon a fellow-creature. A kind intention or a cruel intention made the act seem no less a crime as she looked upon it in that brief moment of illumination.\n13     And yet she had loved him--sometimes. Often she had not. What did it matter! What could love, the unsolved mystery, count for in the face of this possession of self-assertion which she suddenly recognized as the strongest impulse of her being!\n14     \"Free! Body and soul free!\" she kept whispering.\n15     Josephine was kneeling before the closed door with her lips to the keyhold, imploring for admission. \"Louise, open the door! I beg; open the door--you will make yourself ill. What are you doing, Louise? For heaven's sake open the door.\"\n16     \"Go away. I am not making myself ill.\" No; she was drinking in a very elixir(2) of life through that open window.\n17     Her fancy was running riot along those days ahead of her. Spring days, and summer days, and all sorts of days that would be her own. She breathed a quick prayer that life might be long. It was only yesterday she had thought with a shudder that life might be long.\n18     She arose at length and opened the door to her sister's importunities. There was a feverish(3) triumph in her eyes, and she carried herself unwittingly like a goddess of Victory. She clasped her sister's waist, and together they descended the stairs. Richards stood waiting for them at the bottom.\n19     Someone was opening the front door with a latchkey. It was Brently Mallard who entered, a little travel-stained, composedly carrying his grip-sack and umbrella. He had been far from the scene of the accident, and did not even know there had been one. He stood amazed at Josephine's piercing cry; at Richards' quick motion to screen him from the view of his wife.\n20     When the doctors came they said she had died of heart disease--of the joy that kills.\n\nVocabulary definitions:\n1. Repression: the quality of being subdued, suppressed, restrained or kept under control\n2. Elixir: a magical or medicinal potion\n3. Feverish: displaying frenzied or frantic excitement or energy",
+            "questions": [
                 {
-                  "code": "RL.2",
-                  "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.2.1",
-                    "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
-                  }
+                "number": 1,
+                "questionText": "Which statement below BEST expresses a central theme of 'Story of an Hour'?",
+                "choices": [
+                    "A) A woman’s life changes after she learns of her husband’s supposed death.",
+                    "B) Just because a person cries does not mean he or she is sad.",
+                    "C) A marriage or relationship can be oppressive to one’s sense of self.",
+                    "D) Irony"
                 ],
-                "NC": [],
-                "MO": []
-              }
+                "correctAnswer": "C",
+                "explanationText": "Louise’s reaction centers on relief at personal freedom from a constraining marriage, foregrounding oppression vs. selfhood.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.2",
+                        "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.2.1",
+                        "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 2,
+                "questionText": "Which of the following details from the story best support your response to question 1? Choose ONE response.",
+                "choices": [
+                    "A) “She wept at once, with sudden, wild abandonment, in her sister's arms.”",
+                    "B) “There was something coming to her and she was waiting for it, fearfully.”",
+                    "C) “There would be no powerful will bending hers in that blind persistence with which men and women believe they have a right to impose a private will upon a fellow-creature.”",
+                    "D) “When the doctors came they said she had died of heart disease--of the joy that kills.”"
+                ],
+                "correctAnswer": "C",
+                "explanationText": "This line directly names the oppressive dynamic that the theme critiques.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.1",
+                        "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.OE.5",
+                        "description": "Cite evidence to explain and justify reasoning."
+                        },
+                        {
+                        "code": "ELA.E2.AOR.6.1",
+                        "description": "Summarize/paraphrase grade-level content to support comprehension."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 3,
+                "questionText": "Which of the following details from paragraph 1 and 2 foreshadow a critical event later within the plot?",
+                "choices": [
+                    "A) “Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband's death.”",
+                    "B) “It was her sister Josephine who told her, in broken sentences; veiled hints that revealed in half concealing.”",
+                    "C) “Her husband's friend Richards was there, too, near her.”",
+                    "D) “It was he who had been in the newspaper office when intelligence of the railroad disaster was received, with Brently Mallard's name leading the list of 'killed.'”"
+                ],
+                "correctAnswer": "A",
+                "explanationText": "Her known heart condition anticipates the final shock-related death.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.5",
+                        "description": "Analyze how a text’s structure, order of events, and time shifts (e.g., flashback) create effects."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.5.1",
+                        "description": "Literary structure: how order/time (flashback, foreshadowing, pacing) create effects (mystery, tension, surprise)."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 4,
+                "questionText": "Which choice BEST expresses what the reader learns about the protagonist in paragraphs 9-12?",
+                "choices": [
+                    "A) that she is terribly upset and horrified over the death of her husband",
+                    "B) that she is confused about her future",
+                    "C) that she wishes to be free of her tragic situation",
+                    "D) that she is conflicted because of the joy she feels about her husband’s death"
+                ],
+                "correctAnswer": "D",
+                "explanationText": "She recognizes an overwhelming sense of freedom and simultaneously questions whether it is a 'monstrous joy.'",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.3",
+                        "description": "Analyze how characters, events, or ideas develop and interact in a story."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.1.1",
+                        "description": "Key literary elements: analyze how setting, character, events, and dialogue deepen meaning within/across texts."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 5,
+                "questionText": "Which of the following details from those paragraphs most strongly support your response to question 4? Choose the TWO BEST responses.",
+                "choices": [
+                    "A) “There was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name.”",
+                    "B) “But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.”",
+                    "C) “She was beginning to recognize this thing that was approaching to possess her… She said it over and over under her breath: ‘free, free, free!’”",
+                    "D) “Her pulses beat fast, and the coursing blood warmed and relaxed every inch of her body.”",
+                    "E) “She knew that she would weep again… But she saw beyond that bitter moment a long procession of years to come that would belong to her absolutely.”"
+                ],
+                "correctAnswer": [
+                    "C",
+                    "E"
+                ],
+                "explanationText": "C shows the explicit recognition of freedom; E shows her forward-looking embrace of a self-directed life, revealing conflicted joy.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.1",
+                        "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.OE.5",
+                        "description": "Cite evidence to explain and justify reasoning."
+                        },
+                        {
+                        "code": "ELA.E2.AOR.6.1",
+                        "description": "Summarize/paraphrase grade-level content to support comprehension."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 6,
+                "questionText": "In paragraph 20, what irony is revealed about the protagonist?",
+                "choices": [
+                    "A) The doctors realize that Mrs. Mallard felt joy, not sadness, about her husband’s death.",
+                    "B) The shock of Mrs. Mallard’s extreme joy over seeing her husband again killed her.",
+                    "C) The doctors believed Mrs. Mallard died of joy when she actually died in heartbreak.",
+                    "D) Mrs. Mallard died of heart disease."
+                ],
+                "correctAnswer": "C",
+                "explanationText": "The doctors misread the situation: they attribute her death to 'joy,' but the narrative implies the opposite.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.3",
+                        "description": "Analyze how characters, events, or ideas develop and interact in a story."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.3.1",
+                        "description": "Point of view & irony: how perspective creates effects (suspense, humor, sarcasm; situational/dramatic/verbal irony)."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 7,
+                "questionText": "Which words BEST describes the overall tone of the story?",
+                "choices": [
+                    "A) dramatic and ironic",
+                    "B) joyful and comedic",
+                    "C) melancholy and regretful",
+                    "D) formal and scholarly"
+                ],
+                "correctAnswer": "A",
+                "explanationText": "The narrative pivots on shocking reversals and situational irony, delivered with heightened drama.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.4",
+                        "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 8,
+                "questionText": "Which of the following details from the text best support your response to question 7? Choose ONE.",
+                "choices": [
+                    "A) “She could see… tops of trees… aquiver with the new spring life.”",
+                    "B) “She was young, with a fair, calm face, whose lines bespoke repression…”",
+                    "C) “She knew that she would weep again when she saw the kind, tender hands folded in death…”",
+                    "D) “When the doctors came they said she had died of heart disease--of the joy that kills.”"
+                ],
+                "correctAnswer": "D",
+                "explanationText": "The closing diagnosis encapsulates the story’s dramatic irony.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.1",
+                        "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.OE.5",
+                        "description": "Cite evidence to explain and justify reasoning."
+                        },
+                        {
+                        "code": "ELA.E2.AOR.6.1",
+                        "description": "Summarize/paraphrase grade-level content to support comprehension."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 9,
+                "questionText": "How does the tone of the story help develop the theme?",
+                "choices": [
+                    "A) It shows the dramatic contradiction between appearance and reality.",
+                    "B) It shows what a deceitful wife Mrs. Mallard really is.",
+                    "C) It maintains the feeling of liberation throughout.",
+                    "D) It lets the reader know that the protagonist is saddened over her husband’s death."
+                ],
+                "correctAnswer": "A",
+                "explanationText": "The ironic tone highlights the gap between social expectations and Louise’s private reality of liberation.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.2",
+                        "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.2.1",
+                        "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 10,
+                "questionText": "How would the meaning of this sentence from the story change if the author had used enthusiastic instead of feverish? “There was a feverish triumph in her eyes, and she carried herself unwittingly like a goddess of Victory.”",
+                "choices": [
+                    "A) The triumphant feeling of the protagonist would be intensified.",
+                    "B) The triumphant feeling of the protagonist would be lessened.",
+                    "C) The protagonist would feel more energized.",
+                    "D) The protagonist would feel less strongly about her life."
+                ],
+                "correctAnswer": "B",
+                "explanationText": "“Feverish” connotes an urgent, intense, almost uncontrolled excitement; “enthusiastic” softens that intensity.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.4",
+                        "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                }
+            ]
             }
-          },
-          {
-            "number": 2,
-            "questionText": "Which of the following details from the story best support your response to question 1? Choose ONE response.",
-            "choices": [
-              "A) “She wept at once, with sudden, wild abandonment, in her sister's arms.”",
-              "B) “There was something coming to her and she was waiting for it, fearfully.”",
-              "C) “There would be no powerful will bending hers in that blind persistence with which men and women believe they have a right to impose a private will upon a fellow-creature.”",
-              "D) “When the doctors came they said she had died of heart disease--of the joy that kills.”"
-            ],
-            "correctAnswer": "C",
-            "explanationText": "This line directly names the oppressive dynamic that the theme critiques.",
-            "standards": {
-              "common_core": [
+        },
+        {
+            "section": {
+            "name": "Part II",
+            "label": "Analyzing Informational Text",
+            "directions": "Read the following speech. Then answer the questions that follow. ",
+            "title": "John F. Kennedy's Inaugural Address",
+            "subtitle": "Delivered on January 20, 1961",
+            "context": "Set against the backdrop of the Cold War between the United States and the Soviet Union, newly-elected President John F. Kennedy delivered his first inaugural address in January of 1961. Kennedy was a relatively fresh face on the national political scene, untested as a leader. The country was deeply divided over his election, and his victory was far from a \"landslide.\" This no doubt impacted his approach to his audience, as his speech begins with an appeal for unity. The speech ends with one of the most famous calls to action in American rhetoric: \"...ask not what your country can do for you – ask what you can do for your country.\"",
+            "pictureURL": "test_pictures/jfk-inauguration.png",
+            "passage": "1     Vice President Johnson, Mr. Speaker, Mr. Chief Justice, President Eisenhower, Vice President Nixon, President Truman, reverend clergy, fellow citizens:\n2     We observe today not a victory of party, but a celebration of freedom -- symbolizing an end, as well as a beginning -- signifying renewal, as well as change. For I have sworn before you and Almighty God the same solemn oath our forebears prescribed nearly a century and three-quarters ago.\n3     The world is very different now. For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life. And yet the same revolutionary beliefs for which our forebears fought are still at issue around the globe -- the belief that the rights of man come not from the generosity of the state, but from the hand of God.\n4     We dare not forget today that we are the heirs of that first revolution. Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans -- born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage, and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.\n5     Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, to assure the survival and the success of liberty.\n6     This much we pledge -- and more.\n7     To those old allies whose cultural and spiritual origins we share, we pledge the loyalty of faithful friends. United there is little we cannot do in a host of cooperative ventures. Divided there is little we can do -- for we dare not meet a powerful challenge at odds and split asunder.\n8     To those new states whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. But we shall always hope to find them strongly supporting their own freedom -- and to remember that, in the past, those who foolishly sought power by riding the back of the tiger ended up inside.\n9     To those people in the huts and villages of half the globe struggling to break the bonds of mass misery, we pledge our best efforts to help them help themselves, for whatever period is required -- not because the Communists may be doing it, not because we seek their votes, but because it is right. If a free society cannot help the many who are poor, it cannot save the few who are rich.\n10     To our sister republics south of our border, we offer a special pledge: to convert our good words into good deeds, in a new alliance for progress, to assist free men and free governments in casting off the chains of poverty. But this peaceful revolution of hope cannot become the prey of hostile powers. Let all our neighbors know that we shall join with them to oppose aggression or subversion anywhere in the Americas. And let every other power know that this hemisphere intends to remain the master of its own house.\n11     To that world assembly of sovereign states, the United Nations, our last best hope in an age where the instruments of war have far outpaced the instruments of peace, we renew our pledge of support -- to prevent it from becoming merely a forum for invective, to strengthen its shield of the new and the weak, and to enlarge the area in which its writ may run.\n12     Finally, to those nations who would make themselves our adversary, we offer not a pledge but a request: that both sides begin anew the quest for peace, before the dark powers of destruction unleashed by science engulf all humanity in planned or accidental self-destruction. We dare not tempt them with weakness. For only when our arms are sufficient beyond doubt can we be certain beyond doubt that they will never be employed.\n13     But neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war.\n14     So let us begin anew -- remembering on both sides that civility is not a sign of weakness, and sincerity is always subject to proof. Let us never negotiate out of fear, but let us never fear to negotiate.\n15     Let both sides explore what problems unite us instead of belaboring(1) those problems which divide us.\n16     Let both sides, for the first time, formulate serious and precise proposals for the inspection and control of arms, and bring the absolute power to destroy other nations under the absolute control of all nations.\n17     Let both sides seek to invoke the wonders of science instead of its terrors. Together let us explore the stars, conquer the deserts, eradicate disease, tap the ocean depths, and encourage the arts and commerce.\n18     Let both sides unite to heed, in all corners of the earth, the command of Isaiah -- to \"undo the heavy burdens, and [to] let the oppressed go free.\" (2)\n19     And, if a beachhead of cooperation may push back the jungle of suspicion, let both sides join in creating a new endeavor -- not a new balance of power, but a new world of law -- where the strong are just, and the weak secure, and the peace preserved.\n20     All this will not be finished in the first one hundred days. Nor will it be finished in the first one thousand days; nor in the life of this Administration; nor even perhaps in our lifetime on this planet. But let us begin.\n21     In your hands, my fellow citizens, more than mine, will rest the final success or failure of our course. Since this country was founded, each generation of Americans has been summoned to give testimony to its national loyalty. The graves of young Americans who answered the call to service surround the globe.\n22     Now the trumpet summons us again -- not as a call to bear arms, though arms we need -- not as a call to battle, though embattled we are -- but a call to bear the burden of a long twilight struggle, year in and year out, \"rejoicing in hope; patient in tribulation,\" (3) a struggle against the common enemies of man: tyranny, poverty, disease, and war itself.\n23     Can we forge against these enemies a grand and global alliance, North and South, East and West, that can assure a more fruitful life for all mankind? Will you join in that historic effort?\n24     In the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shrink from this responsibility -- I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it. And the glow from that fire can truly light the world.\n25     And so, my fellow Americans, ask not what your country can do for you; ask what you can do for your country.\n26     My fellow citizens of the world, ask not what America will do for you, but what together we can do for the freedom of man.\n27     Finally, whether you are citizens of America or citizens of the world, ask of us here the same high standards of strength and sacrifice which we ask of you. With a good conscience our only sure reward, with history the final judge of our deeds, let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.\n\nVocabulary definitions:\n(1) Belaboring: arguing or elaborating in excessive detail, dwelling or harping on an issue\n(2) Isaiah 58:6 (King James Version of the Holy Bible)\n(3) Romans 12:12 (King James Version of the Holy Bible)",
+            "questions": [
                 {
-                  "code": "RL.1",
-                  "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.OE.5",
-                    "description": "Cite evidence to explain and justify reasoning."
-                  },
-                  {
-                    "code": "ELA.E2.AOR.6.1",
-                    "description": "Summarize/paraphrase grade-level content to support comprehension."
-                  }
+                "number": 11,
+                "questionText": "What is Kennedy's overall purpose in his inaugural address? Choose the best response below.",
+                "choices": [
+                    "A) to inform Americans about his plans and policies as their new president",
+                    "B) to inspire confidence in his leadership and set a tone of collaboration among Americans and the world",
+                    "C) to persuade Americans to work together against their international enemies",
+                    "D) to inspire fear within the leaders of nations that oppose the United States and the freedom the country represents"
                 ],
-                "NC": [],
-                "MO": []
-              }
+                "correctAnswer": "B",
+                "explanationText": "Kennedy’s rhetoric is uplifting and inclusive, designed to inspire Americans and allies to unify behind freedom.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.6",
+                        "description": "Analyze an author’s purpose/perspective and evaluate the effectiveness of rhetoric."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.4.1",
+                        "description": "Author’s perspective/purpose & rhetoric: evaluate how effectively rhetoric advances a viewpoint."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 12,
+                "questionText": "Which choice BEST describes the tone of Kennedy’s address?",
+                "choices": [
+                    "A) patriotic and dominant",
+                    "B) serious and cautionary",
+                    "C) entertaining and amusing",
+                    "D) optimistic and hopeful"
+                ],
+                "correctAnswer": "D",
+                "explanationText": "Despite the Cold War backdrop, Kennedy stresses optimism and the hope of global cooperation.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.4",
+                        "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 13,
+                "questionText": "Which of the following lines from the speech most strongly support your response to question 12? Choose TWO.",
+                "choices": [
+                    "A) “We observe today not a victory of party, but a celebration of freedom...”",
+                    "B) “For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life.”",
+                    "C) “Divided there is little we can do -- for we dare not meet a powerful challenge at odds and split asunder.”",
+                    "D) “And let every other power know that this hemisphere intends to remain the master of its own house.”",
+                    "E) “...Let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.”"
+                ],
+                "correctAnswer": [
+                    "A",
+                    "E"
+                ],
+                "explanationText": "Both A and E emphasize renewal, freedom, and divine guidance, highlighting hope and optimism.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.1",
+                        "description": "Cite strong textual evidence and explain how it supports your analysis of an informational text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.OE.5",
+                        "description": "Cite evidence to explain and justify reasoning."
+                        },
+                        {
+                        "code": "ELA.E2.AOR.6.1",
+                        "description": "Summarize/paraphrase grade-level content to support comprehension."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 14,
+                "questionText": "Which choice BEST describes the connection between the inaugural address and the photograph?",
+                "choices": [
+                    "A) The photograph captures the historic inauguration from the perspective of the American audience looking at their new president.",
+                    "B) The photograph captures a full picture of the inauguration from the perspective of the president and his dignitaries looking upon the American people.",
+                    "C) The photograph illustrates the patriotism of the crowds of people at the inauguration.",
+                    "D) The man pictured in the photograph is the intended audience for Kennedy’s address."
+                ],
+                "correctAnswer": "B",
+                "explanationText": "The image shows Kennedy's back rather than the more famous pictures of his face while he delivers his speech.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.7",
+                        "description": "Integrate information from different formats (charts, visuals, words) to understand a topic."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.10.1",
+                        "description": "Multimedia: analyze pros/cons of different formats (print, digital, image, film, performance)."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 15,
+                "questionText": "Which choice BEST expresses Kennedy's central idea in his inaugural address?",
+                "choices": [
+                    "A) As a united country, America must commit itself to assuring freedom and human rights for all humankind.",
+                    "B) The fate of one country, and in particular, the United States, affects all countries.",
+                    "C) Being kind is a strength of the United States, not a weakness.",
+                    "D) As a nation, American must unite to oppose our enemies and those around the world who attack freedom."
+                ],
+                "correctAnswer": "A",
+                "explanationText": "Kennedy’s core argument: unity and global leadership in defending freedom and human rights.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.2",
+                        "description": "Determine a central idea in informational text and explain how it develops."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.2.2",
+                        "description": "Central idea in historical speeches/essays: explain how details develop the idea over the text."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 16,
+                "questionText": "Which choice BEST expresses Kennedy's reason for including paragraphs 7-11 in his address?",
+                "choices": [
+                    "A) to emphasize the differences between freedom and Communism",
+                    "B) to prepare the international community for future struggles for freedom supported by the U.S.",
+                    "C) to strengthen America’s international bonds through a commitment to protect and encourage freedom around the world",
+                    "D) to inform the American people about the current state of it international relationships"
+                ],
+                "correctAnswer": "C",
+                "explanationText": "These sections underscore America’s global pledges, reinforcing bonds with allies and new nations in freedom’s defense.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.5",
+                        "description": "Analyze how an informational text’s structure and features make ideas clear or persuasive."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.5.2",
+                        "description": "Informational structures/features: impact on clarity/effectiveness; how to improve the text."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 17,
+                "questionText": "Which of the sentences below from the address is Kennedy’s strongest argument in favor of the U.S. working with its adversaries towards peace?",
+                "choices": [
+                    "A) “Let both sides begin anew the quest for peace, before the dark powers of destruction unleashed by science engulf all humanity in planned or accidental self-destruction.”",
+                    "B) “But neither can two great and powerful groups of nations take comfort from our present course.”",
+                    "C) “So let us begin anew -- remembering on both sides that civility is not a sign of weakness...”",
+                    "D) “Let both sides explore what problems unite us instead of belaboring those problems which divide us.”"
+                ],
+                "correctAnswer": "A",
+                "explanationText": "This line most directly frames peace as necessary to avoid catastrophic destruction, appealing for cooperation.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.8",
+                        "description": "Evaluate arguments: reasoning, evidence, and validity of claims in informational texts."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.5.3",
+                        "description": "Opposing arguments: compare reasoning, rhetoric, and validity of claims."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 18,
+                "questionText": "The basic argument presented by Kennedy in paragraphs 25-27 is that...",
+                "choices": [
+                    "A) we must ask ourselves what it means to be American",
+                    "B) we must commit ourselves to serve our country and the greater good.",
+                    "C) we must take responsibility for our actions as Americans",
+                    "D) we must lead the world as Americans, asking other countries to make their own sacrifices."
+                ],
+                "correctAnswer": "B",
+                "explanationText": "The famous 'ask not' passage emphasizes personal responsibility and service to country and humanity.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.8",
+                        "description": "Evaluate arguments: reasoning, evidence, and validity of claims in informational texts."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.5.3",
+                        "description": "Opposing arguments: compare reasoning, rhetoric, and validity of claims."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 19,
+                "questionText": "What is the meaning of the word tempered in this sentence from Kennedy’s address? '...born in this century, tempered by war, disciplined by a hard and bitter peace...' ",
+                "choices": [
+                    "A) defeated",
+                    "B) saddened",
+                    "C) made stronger",
+                    "D) made angrier"
+                ],
+                "correctAnswer": "C",
+                "explanationText": "In context, 'tempered' means strengthened or toughened by experience, especially hardship.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.4",
+                        "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.7.1",
+                        "description": "Vocabulary in context: clarify meanings using context, prior knowledge, and reference materials."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 20,
+                "questionText": "How would the meaning of this sentence from Kennedy’s address change if he had used the phrase discussing instead of the word belaboring? \n'Let both sides explore what problems unite us instead of **belaboring** those problems which divide us.'",
+                "choices": [
+                    "A) The phrase *belaboring* emphasizes their long-held differences. Discussing does not.",
+                    "B) The word *belaboring* makes their differences seem manageable. Discussing does not.",
+                    "C) The word *belaboring* causes fear in listeners. Discussing would do the same.",
+                    "D) The word *belaboring* is an appeal to logic. Discussing is an appeal to emotion."
+                ],
+                "correctAnswer": "A",
+                "explanationText": "Belaboring connotes dwelling excessively and negatively on division; 'discussing' lacks that weight.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.4",
+                        "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 21,
+                "questionText": "What rhetorical device is used in the following sentence from the address: 'Let both sides unite to heed, in all corners of the earth, the command of Isaiah -- to undo the heavy burdens, and [to] let the oppressed go free.'",
+                "choices": [
+                    "A) Allusion",
+                    "B) Simile",
+                    "C) Personification",
+                    "D) Understatement"
+                ],
+                "correctAnswer": "A",
+                "explanationText": "Kennedy alludes to Isaiah 58:6, a biblical text, to lend moral authority to his appeal.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.6",
+                        "description": "Analyze how point of view and perspective (including irony) shape meaning and style."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 22,
+                "questionText": "What is the primary rhetorical appeal used in the following passage? \n'To those people in the huts and villages of half the globe struggling to break the bonds of mass misery, we pledge our best efforts to help them help themselves, for whatever period is required -- not because the Communists may be doing it, not because we seek their votes, but because it is right.' ",
+                "choices": [
+                    "A) Ethos, or appeal based on character or credibility",
+                    "B) Pathos, or emotional appeal",
+                    "C) Logos, or logical appeal",
+                    "D) All of the above"
+                ],
+                "correctAnswer": "B",
+                "explanationText": "Kennedy invokes pathos by emphasizing the suffering of people across the globe and appealing to people's sense of compassion, justice, and responsibility to help others.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RI.6",
+                        "description": "Analyze an author’s purpose/perspective and evaluate the effectiveness of rhetoric."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.4.1",
+                        "description": "Author’s perspective/purpose & rhetoric: evaluate how effectively rhetoric advances a viewpoint."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                }
+            ]
             }
-          },
-          {
-            "number": 3,
-            "questionText": "Which of the following details from paragraph 1 and 2 foreshadow a critical event later within the plot?",
-            "choices": [
-              "A) “Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband's death.”",
-              "B) “It was her sister Josephine who told her, in broken sentences; veiled hints that revealed in half concealing.”",
-              "C) “Her husband's friend Richards was there, too, near her.”",
-              "D) “It was he who had been in the newspaper office when intelligence of the railroad disaster was received, with Brently Mallard's name leading the list of 'killed.'”"
-            ],
-            "correctAnswer": "A",
-            "explanationText": "Her known heart condition anticipates the final shock-related death.",
-            "standards": {
-              "common_core": [
+        },
+        {
+            "section": {
+            "name": "Part III",
+            "label": "Analyzing Literature/Multiple Mediums",
+            "title": "Sonnet V",
+            "directions": "Read the following poem and view the illustration. Then answer the questions that follow. ",
+            "author": "William Shakespeare",
+            "pictureURL": "test_pictures/all-is-vanity.png",
+            "passage": "Those hours, that with gentle work did frame\nThe lovely gaze where every eye doth dwell,\nWill play the tyrants(1) to the very same\nAnd that unfair which fairly doth excel:\nFor never-resting time leads summer on\nTo hideous winter and confounds(2) him there;\nSap cheque'd with frost and lusty leaves quite gone,\nBeauty o'ersnow'd and bareness every where:\nThen, were not summer's distillation(3) left,\nA liquid prisoner pent in walls of glass,\nBeauty's effect with beauty were bereft,(4)\nNor it nor no remembrance what it was:\nBut flowers distill'd though they with winter meet,\nLeese(5) but their show; their substance still lives\nsweet.\n\nVocabulary definitions:\n(1) Tyrant: a cruel and oppressive ruler\n(2) Confounds: an archaic word meaning to overthrow or destroy\n(3) Distillation: in this case, refers to the process of extracting perfume from flowers.\n(4) Bereft: to be deprived of or be lacking of something\n(5) Leese: to lose",
+            "questions": [
                 {
-                  "code": "RL.5",
-                  "description": "Analyze how a text’s structure, order of events, and time shifts (e.g., flashback) create effects."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.5.1",
-                    "description": "Literary structure: how order/time (flashback, foreshadowing, pacing) create effects (mystery, tension, surprise)."
-                  }
+                "number": 23,
+                "questionText": "What is the overall theme of the poem? Choose the best response below.",
+                "choices": [
+                    "A) Beauty is easily destroyed.",
+                    "B) Nature can be both beautiful and deadly.",
+                    "C) Though time destroys outer beauty, the true inner beauty persists.",
+                    "D) Possessing true beauty can be both a blessing and a curse."
                 ],
-                "NC": [],
-                "MO": []
-              }
+                "correctAnswer": "C",
+                "explanationText": "The poem emphasizes that while time diminishes outward beauty, essence or inner worth (distillation) endures.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.2",
+                        "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.2.1",
+                        "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 24,
+                "questionText": "Which of the following lines from the poem best help to support your response to question 23?",
+                "choices": [
+                    "A) “Those hours, that with gentle work did frame / The lovely gaze where every eye doth dwell”",
+                    "B) “For never-resting time leads summer on / To hideous winter and confounds him there”",
+                    "C) “Beauty's effect with beauty were bereft, / Nor it nor no remembrance what it was”",
+                    "D) “But flowers distill'd though they with winter meet, / Leese but their show; their substance still lives sweet”"
+                ],
+                "correctAnswer": "D",
+                "explanationText": "The distillation metaphor shows that inner essence remains, even as physical beauty fades.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.1",
+                        "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.OE.5",
+                        "description": "Cite evidence to explain and justify reasoning."
+                        },
+                        {
+                        "code": "ELA.E2.AOR.6.1",
+                        "description": "Summarize/paraphrase grade-level content to support comprehension."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 25,
+                "questionText": "How does the author use figurative language to develop the theme?",
+                "choices": [
+                    "A) He uses the extended metaphor of seasons as a comparison to growing old.",
+                    "B) He uses multiple hyperboles to heighten the reader’s fear of growing old.",
+                    "C) He uses similes to compare life to nature and everyday objects.",
+                    "D) He personifies aging to show it has both good and bad qualities as humans do."
+                ],
+                "correctAnswer": "A",
+                "explanationText": "The sonnet compares beauty’s fading to seasonal change — summer to winter — showing how time erodes outer beauty.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.4",
+                        "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.8.1",
+                        "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 26,
+                "questionText": "Which of the following choices best paraphrase the first three lines of the poem?",
+                "choices": [
+                    "A) The same people who admire and commend someone’s looks one day will be the first to criticize and denounce them on another.",
+                    "B) While time makes some people admiringly beautiful, it turns others into tyrannical bullies.",
+                    "C) While the passage of time helps to develop one’s beauty, it will also ultimately steal that beauty away.",
+                    "D) Some people admire others’ beauty, while other people are jealous of it."
+                ],
+                "correctAnswer": "C",
+                "explanationText": "The opening lines describe how time fashions beauty but inevitably strips it away.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.5",
+                        "description": "Analyze how a text’s structure, order of events, and time shifts (e.g., flashback) create effects."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.5.1",
+                        "description": "Literary structure: how order/time (flashback, foreshadowing, pacing) create effects (mystery, tension, surprise)."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
+                {
+                "number": 27,
+                "questionText": "Which of the following statements reflect a central idea of BOTH the poem and the painting?",
+                "choices": [
+                    "A) Death is inevitable.",
+                    "B) Physical beauty will not last forever.",
+                    "C) Vanity or over obsession on appearance leads to one’s downfall.",
+                    "D) True inner beauty transcends time."
+                ],
+                "correctAnswer": "B",
+                "explanationText": "Both works illustrate the transience of physical beauty — the sonnet through time/season imagery, the drawing through the skull illusion.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "RL.7",
+                        "description": "Analyze how two or more formats/mediums (text, image, film) convey themes/ideas."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.AOR.10.1",
+                        "description": "Multimedia: analyze pros/cons of different formats (print, digital, image, film, performance)."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                }
+            ]
             }
-          },
-          {
-            "number": 4,
-            "questionText": "Which choice BEST expresses what the reader learns about the protagonist in paragraphs 9-12?",
-            "choices": [
-              "A) that she is terribly upset and horrified over the death of her husband",
-              "B) that she is confused about her future",
-              "C) that she wishes to be free of her tragic situation",
-              "D) that she is conflicted because of the joy she feels about her husband’s death"
-            ],
-            "correctAnswer": "D",
-            "explanationText": "She recognizes an overwhelming sense of freedom and simultaneously questions whether it is a 'monstrous joy.'",
-            "standards": {
-              "common_core": [
+        },
+        {
+            "section": {
+            "name": "Part IV",
+            "label": "Conventions of Language",
+            "directions": "Choose the correct response for each question. ",
+            "questions": [
                 {
-                  "code": "RL.3",
-                  "description": "Analyze how characters, events, or ideas develop and interact in a story."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.1.1",
-                    "description": "Key literary elements: analyze how setting, character, events, and dialogue deepen meaning within/across texts."
-                  }
+                "number": 28,
+                "questionText": "Knowing that they always sell out fast_____ we baked six dozen cookies.",
+                "choices": [
+                    "A) ;",
+                    "B) ,",
+                    "C) .",
+                    "D) :"
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 5,
-            "questionText": "Which of the following details from those paragraphs most strongly support your response to question 4? Choose the TWO BEST responses.",
-            "choices": [
-              "A) “There was something coming to her and she was waiting for it, fearfully. What was it? She did not know; it was too subtle and elusive to name.”",
-              "B) “But she felt it, creeping out of the sky, reaching toward her through the sounds, the scents, the color that filled the air.”",
-              "C) “She was beginning to recognize this thing that was approaching to possess her… She said it over and over under her breath: ‘free, free, free!’”",
-              "D) “Her pulses beat fast, and the coursing blood warmed and relaxed every inch of her body.”",
-              "E) “She knew that she would weep again… But she saw beyond that bitter moment a long procession of years to come that would belong to her absolutely.”"
-            ],
-            "correctAnswer": [
-              "C",
-              "E"
-            ],
-            "explanationText": "C shows the explicit recognition of freedom; E shows her forward-looking embrace of a self-directed life, revealing conflicted joy.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "B",
+                "explanationText": "A comma correctly separates the introductory clause from the main clause.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.2",
+                        "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.1",
-                  "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.OE.5",
-                    "description": "Cite evidence to explain and justify reasoning."
-                  },
-                  {
-                    "code": "ELA.E2.AOR.6.1",
-                    "description": "Summarize/paraphrase grade-level content to support comprehension."
-                  }
+                "number": 29,
+                "questionText": "Justin was excited about inviting friends over, eating a good meal, and _____________________ .",
+                "choices": [
+                    "A) a game of cards.",
+                    "B) to play cards.",
+                    "C) playing a game of cards.",
+                    "D) play a game of cards."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 6,
-            "questionText": "In paragraph 20, what irony is revealed about the protagonist?",
-            "choices": [
-              "A) The doctors realize that Mrs. Mallard felt joy, not sadness, about her husband’s death.",
-              "B) The shock of Mrs. Mallard’s extreme joy over seeing her husband again killed her.",
-              "C) The doctors believed Mrs. Mallard died of joy when she actually died in heartbreak.",
-              "D) Mrs. Mallard died of heart disease."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "The doctors misread the situation: they attribute her death to 'joy,' but the narrative implies the opposite.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "C",
+                "explanationText": "Parallel structure requires all items in the list to be gerunds: inviting, eating, playing.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.1",
+                        "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.3",
-                  "description": "Analyze how characters, events, or ideas develop and interact in a story."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.3.1",
-                    "description": "Point of view & irony: how perspective creates effects (suspense, humor, sarcasm; situational/dramatic/verbal irony)."
-                  }
+                "number": 30,
+                "questionText": "Which one of the following choices is punctuated correctly?",
+                "choices": [
+                    "A) The current city policy on housing is incomplete as it stands. Which is why we believe the proposed amendments should be passed.",
+                    "B) The current city policy on housing is incomplete as it stands, which is why we believe the proposed amendments should be passed.",
+                    "C) The current city policy on housing is incomplete as it stands; which is why we believe the proposed amendments should be passed.",
+                    "D) The current city policy on housing is incomplete as it stands: which is why we believe the proposed amendments should be passed."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 7,
-            "questionText": "Which words BEST describes the overall tone of the story?",
-            "choices": [
-              "A) dramatic and ironic",
-              "B) joyful and comedic",
-              "C) melancholy and regretful",
-              "D) formal and scholarly"
-            ],
-            "correctAnswer": "A",
-            "explanationText": "The narrative pivots on shocking reversals and situational irony, delivered with heightened drama.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "B",
+                "explanationText": "Sentence B uses a comma and dependent clause correctly; the others misuse punctuation.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.2",
+                        "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.4",
-                  "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
+                "number": 31,
+                "questionText": "Which one of the following sentences is spelled correctly throughout?",
+                "choices": [
+                    "A) Bill past by the construction cite everyday on his bike.",
+                    "B) Bill passed by the construction sight every day on his bike.",
+                    "C) Bill passed by the construction site every day on his bike.",
+                    "D) Bill passed by the construction cite every day on his bike."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 8,
-            "questionText": "Which of the following details from the text best support your response to question 7? Choose ONE.",
-            "choices": [
-              "A) “She could see… tops of trees… aquiver with the new spring life.”",
-              "B) “She was young, with a fair, calm face, whose lines bespoke repression…”",
-              "C) “She knew that she would weep again when she saw the kind, tender hands folded in death…”",
-              "D) “When the doctors came they said she had died of heart disease--of the joy that kills.”"
-            ],
-            "correctAnswer": "D",
-            "explanationText": "The closing diagnosis encapsulates the story’s dramatic irony.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "C",
+                "explanationText": "‘Passed,’ ‘site,’ and ‘every day’ are the correct spellings/usage.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.2",
+                        "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.1",
-                  "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.OE.5",
-                    "description": "Cite evidence to explain and justify reasoning."
-                  },
-                  {
-                    "code": "ELA.E2.AOR.6.1",
-                    "description": "Summarize/paraphrase grade-level content to support comprehension."
-                  }
+                "number": 32,
+                "questionText": "Which one of the following sentences uses correct punctuation and parallel structure?",
+                "choices": [
+                    "A) The forecast predicts snow for tonight, please drive slowly, safely and with caution.",
+                    "B) The forecast predicts snow for tonight; please drive slowly, safely and with caution.",
+                    "C) The forecast predicts snow for tonight; please drive slowly, cautiously and safely.",
+                    "D) The forecast predicts snow for tonight: please drive slowly, safely and cautiously."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 9,
-            "questionText": "How does the tone of the story help develop the theme?",
-            "choices": [
-              "A) It shows the dramatic contradiction between appearance and reality.",
-              "B) It shows what a deceitful wife Mrs. Mallard really is.",
-              "C) It maintains the feeling of liberation throughout.",
-              "D) It lets the reader know that the protagonist is saddened over her husband’s death."
-            ],
-            "correctAnswer": "A",
-            "explanationText": "The ironic tone highlights the gap between social expectations and Louise’s private reality of liberation.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "C",
+                "explanationText": "A semicolon correctly joins two independent clauses, and the list structure is considered parallel structure - and it just feels smoother.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.1",
+                        "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.2",
-                  "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.2.1",
-                    "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
-                  }
+                "number": 33,
+                "questionText": "Neither her friends nor her teacher _______________ the problem.",
+                "choices": [
+                    "A) Realizes",
+                    "B) Realize",
+                    "C) Realistic",
+                    "D) Realistically"
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 10,
-            "questionText": "How would the meaning of this sentence from the story change if the author had used enthusiastic instead of feverish? “There was a feverish triumph in her eyes, and she carried herself unwittingly like a goddess of Victory.”",
-            "choices": [
-              "A) The triumphant feeling of the protagonist would be intensified.",
-              "B) The triumphant feeling of the protagonist would be lessened.",
-              "C) The protagonist would feel more energized.",
-              "D) The protagonist would feel less strongly about her life."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "“Feverish” connotes an urgent, intense, almost uncontrolled excitement; “enthusiastic” softens that intensity.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "A",
+                "explanationText": "With 'Neither...nor,' the verb agrees with the nearer subject 'teacher' (singular): realizes.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.1",
+                        "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RL.4",
-                  "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
+                "number": 34,
+                "questionText": "Which one of the following sentences is punctuated correctly?",
+                "choices": [
+                    "A) The following students are to report to the Dean's office: Jones, Murphy, Jackson, and Weidner.",
+                    "B) The following students are to report to the Dean's office; Jones, Murphy, Jackson, and Weidner.",
+                    "C) The following students are to report to the Dean's office, Jones, Murphy, Jackson, and Weidner.",
+                    "D) The following students are to report to the Dean's office. Jones, Murphy, Jackson, and Weidner."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "section": {
-        "name": "Part II",
-        "label": "Analyzing Informational Text",
-        "directions": "Read the following speech. Then answer the questions that follow. ",
-        "title": "John F. Kennedy's Inaugural Address",
-        "subtitle": "Delivered on January 20, 1961",
-        "context": "Set against the backdrop of the Cold War between the United States and the Soviet Union, newly-elected President John F. Kennedy delivered his first inaugural address in January of 1961. Kennedy was a relatively fresh face on the national political scene, untested as a leader. The country was deeply divided over his election, and his victory was far from a \"landslide.\" This no doubt impacted his approach to his audience, as his speech begins with an appeal for unity. The speech ends with one of the most famous calls to action in American rhetoric: \"...ask not what your country can do for you – ask what you can do for your country.\"",
-        "pictureURL": "test_pictures/jfk-inauguration.png",
-        "passage": "1     Vice President Johnson, Mr. Speaker, Mr. Chief Justice, President Eisenhower, Vice President Nixon, President Truman, reverend clergy, fellow citizens:\n2     We observe today not a victory of party, but a celebration of freedom -- symbolizing an end, as well as a beginning -- signifying renewal, as well as change. For I have sworn before you and Almighty God the same solemn oath our forebears prescribed nearly a century and three-quarters ago.\n3     The world is very different now. For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life. And yet the same revolutionary beliefs for which our forebears fought are still at issue around the globe -- the belief that the rights of man come not from the generosity of the state, but from the hand of God.\n4     We dare not forget today that we are the heirs of that first revolution. Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans -- born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage, and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.\n5     Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, to assure the survival and the success of liberty.\n6     This much we pledge -- and more.\n7     To those old allies whose cultural and spiritual origins we share, we pledge the loyalty of faithful friends. United there is little we cannot do in a host of cooperative ventures. Divided there is little we can do -- for we dare not meet a powerful challenge at odds and split asunder.\n8     To those new states whom we welcome to the ranks of the free, we pledge our word that one form of colonial control shall not have passed away merely to be replaced by a far more iron tyranny. We shall not always expect to find them supporting our view. But we shall always hope to find them strongly supporting their own freedom -- and to remember that, in the past, those who foolishly sought power by riding the back of the tiger ended up inside.\n9     To those people in the huts and villages of half the globe struggling to break the bonds of mass misery, we pledge our best efforts to help them help themselves, for whatever period is required -- not because the Communists may be doing it, not because we seek their votes, but because it is right. If a free society cannot help the many who are poor, it cannot save the few who are rich.\n10     To our sister republics south of our border, we offer a special pledge: to convert our good words into good deeds, in a new alliance for progress, to assist free men and free governments in casting off the chains of poverty. But this peaceful revolution of hope cannot become the prey of hostile powers. Let all our neighbors know that we shall join with them to oppose aggression or subversion anywhere in the Americas. And let every other power know that this hemisphere intends to remain the master of its own house.\n11     To that world assembly of sovereign states, the United Nations, our last best hope in an age where the instruments of war have far outpaced the instruments of peace, we renew our pledge of support -- to prevent it from becoming merely a forum for invective, to strengthen its shield of the new and the weak, and to enlarge the area in which its writ may run.\n12     Finally, to those nations who would make themselves our adversary, we offer not a pledge but a request: that both sides begin anew the quest for peace, before the dark powers of destruction unleashed by science engulf all humanity in planned or accidental self-destruction. We dare not tempt them with weakness. For only when our arms are sufficient beyond doubt can we be certain beyond doubt that they will never be employed.\n13     But neither can two great and powerful groups of nations take comfort from our present course -- both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war.\n14     So let us begin anew -- remembering on both sides that civility is not a sign of weakness, and sincerity is always subject to proof. Let us never negotiate out of fear, but let us never fear to negotiate.\n15     Let both sides explore what problems unite us instead of belaboring(1) those problems which divide us.\n16     Let both sides, for the first time, formulate serious and precise proposals for the inspection and control of arms, and bring the absolute power to destroy other nations under the absolute control of all nations.\n17     Let both sides seek to invoke the wonders of science instead of its terrors. Together let us explore the stars, conquer the deserts, eradicate disease, tap the ocean depths, and encourage the arts and commerce.\n18     Let both sides unite to heed, in all corners of the earth, the command of Isaiah -- to \"undo the heavy burdens, and [to] let the oppressed go free.\" (2)\n19     And, if a beachhead of cooperation may push back the jungle of suspicion, let both sides join in creating a new endeavor -- not a new balance of power, but a new world of law -- where the strong are just, and the weak secure, and the peace preserved.\n20     All this will not be finished in the first one hundred days. Nor will it be finished in the first one thousand days; nor in the life of this Administration; nor even perhaps in our lifetime on this planet. But let us begin.\n21     In your hands, my fellow citizens, more than mine, will rest the final success or failure of our course. Since this country was founded, each generation of Americans has been summoned to give testimony to its national loyalty. The graves of young Americans who answered the call to service surround the globe.\n22     Now the trumpet summons us again -- not as a call to bear arms, though arms we need -- not as a call to battle, though embattled we are -- but a call to bear the burden of a long twilight struggle, year in and year out, \"rejoicing in hope; patient in tribulation,\" (3) a struggle against the common enemies of man: tyranny, poverty, disease, and war itself.\n23     Can we forge against these enemies a grand and global alliance, North and South, East and West, that can assure a more fruitful life for all mankind? Will you join in that historic effort?\n24     In the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shrink from this responsibility -- I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it. And the glow from that fire can truly light the world.\n25     And so, my fellow Americans, ask not what your country can do for you; ask what you can do for your country.\n26     My fellow citizens of the world, ask not what America will do for you, but what together we can do for the freedom of man.\n27     Finally, whether you are citizens of America or citizens of the world, ask of us here the same high standards of strength and sacrifice which we ask of you. With a good conscience our only sure reward, with history the final judge of our deeds, let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.\n\nVocabulary definitions:\n(1) Belaboring: arguing or elaborating in excessive detail, dwelling or harping on an issue\n(2) Isaiah 58:6 (King James Version of the Holy Bible)\n(3) Romans 12:12 (King James Version of the Holy Bible)",
-        "questions": [
-          {
-            "number": 11,
-            "questionText": "What is Kennedy's overall purpose in his inaugural address? Choose the best response below.",
-            "choices": [
-              "A) to inform Americans about his plans and policies as their new president",
-              "B) to inspire confidence in his leadership and set a tone of collaboration among Americans and the world",
-              "C) to persuade Americans to work together against their international enemies",
-              "D) to inspire fear within the leaders of nations that oppose the United States and the freedom the country represents"
-            ],
-            "correctAnswer": "B",
-            "explanationText": "Kennedy’s rhetoric is uplifting and inclusive, designed to inspire Americans and allies to unify behind freedom.",
-            "standards": {
-              "common_core": [
+                "correctAnswer": "A",
+                "explanationText": "A colon is correct before a list following an independent clause.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.2",
+                        "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
+                    }
+                }
+                },
                 {
-                  "code": "RI.6",
-                  "description": "Analyze an author’s purpose/perspective and evaluate the effectiveness of rhetoric."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.4.1",
-                    "description": "Author’s perspective/purpose & rhetoric: evaluate how effectively rhetoric advances a viewpoint."
-                  }
+                "number": 35,
+                "questionText": "Which one of the following sentences is written in active voice?",
+                "choices": [
+                    "A) With five seconds left in the game, an illegal time-out was called by one of the players",
+                    "B) The construction crew built the house within five months",
+                    "C) The car was being cleaned by its owner.",
+                    "D) Before the semester was over, the new nursing program had been approved by the Curriculum Committee and the Board of Trustees."
                 ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 12,
-            "questionText": "Which choice BEST describes the tone of Kennedy’s address?",
-            "choices": [
-              "A) patriotic and dominant",
-              "B) serious and cautionary",
-              "C) entertaining and amusing",
-              "D) optimistic and hopeful"
-            ],
-            "correctAnswer": "D",
-            "explanationText": "Despite the Cold War backdrop, Kennedy stresses optimism and the hope of global cooperation.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.4",
-                  "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 13,
-            "questionText": "Which of the following lines from the speech most strongly support your response to question 12? Choose TWO.",
-            "choices": [
-              "A) “We observe today not a victory of party, but a celebration of freedom...”",
-              "B) “For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life.”",
-              "C) “Divided there is little we can do -- for we dare not meet a powerful challenge at odds and split asunder.”",
-              "D) “And let every other power know that this hemisphere intends to remain the master of its own house.”",
-              "E) “...Let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.”"
-            ],
-            "correctAnswer": [
-              "A",
-              "E"
-            ],
-            "explanationText": "Both A and E emphasize renewal, freedom, and divine guidance, highlighting hope and optimism.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.1",
-                  "description": "Cite strong textual evidence and explain how it supports your analysis of an informational text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.OE.5",
-                    "description": "Cite evidence to explain and justify reasoning."
-                  },
-                  {
-                    "code": "ELA.E2.AOR.6.1",
-                    "description": "Summarize/paraphrase grade-level content to support comprehension."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 14,
-            "questionText": "Which choice BEST describes the connection between the inaugural address and the photograph?",
-            "choices": [
-              "A) The photograph captures the historic inauguration from the perspective of the American audience looking at their new president.",
-              "B) The photograph captures a full picture of the inauguration from the perspective of the president and his dignitaries looking upon the American people.",
-              "C) The photograph illustrates the patriotism of the crowds of people at the inauguration.",
-              "D) The man pictured in the photograph is the intended audience for Kennedy’s address."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "The image shows Kennedy's back rather than the more famous pictures of his face while he delivers his speech.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.7",
-                  "description": "Integrate information from different formats (charts, visuals, words) to understand a topic."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.10.1",
-                    "description": "Multimedia: analyze pros/cons of different formats (print, digital, image, film, performance)."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 15,
-            "questionText": "Which choice BEST expresses Kennedy's central idea in his inaugural address?",
-            "choices": [
-              "A) As a united country, America must commit itself to assuring freedom and human rights for all humankind.",
-              "B) The fate of one country, and in particular, the United States, affects all countries.",
-              "C) Being kind is a strength of the United States, not a weakness.",
-              "D) As a nation, American must unite to oppose our enemies and those around the world who attack freedom."
-            ],
-            "correctAnswer": "A",
-            "explanationText": "Kennedy’s core argument: unity and global leadership in defending freedom and human rights.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.2",
-                  "description": "Determine a central idea in informational text and explain how it develops."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.2.2",
-                    "description": "Central idea in historical speeches/essays: explain how details develop the idea over the text."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 16,
-            "questionText": "Which choice BEST expresses Kennedy's reason for including paragraphs 7-11 in his address?",
-            "choices": [
-              "A) to emphasize the differences between freedom and Communism",
-              "B) to prepare the international community for future struggles for freedom supported by the U.S.",
-              "C) to strengthen America’s international bonds through a commitment to protect and encourage freedom around the world",
-              "D) to inform the American people about the current state of it international relationships"
-            ],
-            "correctAnswer": "C",
-            "explanationText": "These sections underscore America’s global pledges, reinforcing bonds with allies and new nations in freedom’s defense.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.5",
-                  "description": "Analyze how an informational text’s structure and features make ideas clear or persuasive."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.5.2",
-                    "description": "Informational structures/features: impact on clarity/effectiveness; how to improve the text."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 17,
-            "questionText": "Which of the sentences below from the address is Kennedy’s strongest argument in favor of the U.S. working with its adversaries towards peace?",
-            "choices": [
-              "A) “Let both sides begin anew the quest for peace, before the dark powers of destruction unleashed by science engulf all humanity in planned or accidental self-destruction.”",
-              "B) “But neither can two great and powerful groups of nations take comfort from our present course.”",
-              "C) “So let us begin anew -- remembering on both sides that civility is not a sign of weakness...”",
-              "D) “Let both sides explore what problems unite us instead of belaboring those problems which divide us.”"
-            ],
-            "correctAnswer": "A",
-            "explanationText": "This line most directly frames peace as necessary to avoid catastrophic destruction, appealing for cooperation.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.8",
-                  "description": "Evaluate arguments: reasoning, evidence, and validity of claims in informational texts."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.5.3",
-                    "description": "Opposing arguments: compare reasoning, rhetoric, and validity of claims."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 18,
-            "questionText": "The basic argument presented by Kennedy in paragraphs 25-27 is that...",
-            "choices": [
-              "A) we must ask ourselves what it means to be American",
-              "B) we must commit ourselves to serve our country and the greater good.",
-              "C) we must take responsibility for our actions as Americans",
-              "D) we must lead the world as Americans, asking other countries to make their own sacrifices."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "The famous 'ask not' passage emphasizes personal responsibility and service to country and humanity.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.8",
-                  "description": "Evaluate arguments: reasoning, evidence, and validity of claims in informational texts."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.5.3",
-                    "description": "Opposing arguments: compare reasoning, rhetoric, and validity of claims."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 19,
-            "questionText": "What is the meaning of the word tempered in this sentence from Kennedy’s address? '...born in this century, tempered by war, disciplined by a hard and bitter peace...' ",
-            "choices": [
-              "A) defeated",
-              "B) saddened",
-              "C) made stronger",
-              "D) made angrier"
-            ],
-            "correctAnswer": "C",
-            "explanationText": "In context, 'tempered' means strengthened or toughened by experience, especially hardship.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.4",
-                  "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.7.1",
-                    "description": "Vocabulary in context: clarify meanings using context, prior knowledge, and reference materials."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 20,
-            "questionText": "How would the meaning of this sentence from Kennedy’s address change if he had used the phrase discussing instead of the word belaboring? \n'Let both sides explore what problems unite us instead of **belaboring** those problems which divide us.'",
-            "choices": [
-              "A) The phrase *belaboring* emphasizes their long-held differences. Discussing does not.",
-              "B) The word *belaboring* makes their differences seem manageable. Discussing does not.",
-              "C) The word *belaboring* causes fear in listeners. Discussing would do the same.",
-              "D) The word *belaboring* is an appeal to logic. Discussing is an appeal to emotion."
-            ],
-            "correctAnswer": "A",
-            "explanationText": "Belaboring connotes dwelling excessively and negatively on division; 'discussing' lacks that weight.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.4",
-                  "description": "Determine meaning of words/phrases; analyze word choice and technical meanings in context."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 21,
-            "questionText": "What rhetorical device is used in the following sentence from the address: 'Let both sides unite to heed, in all corners of the earth, the command of Isaiah -- to undo the heavy burdens, and [to] let the oppressed go free.'",
-            "choices": [
-              "A) Allusion",
-              "B) Simile",
-              "C) Personification",
-              "D) Understatement"
-            ],
-            "correctAnswer": "A",
-            "explanationText": "Kennedy alludes to Isaiah 58:6, a biblical text, to lend moral authority to his appeal.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.6",
-                  "description": "Analyze how point of view and perspective (including irony) shape meaning and style."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 22,
-            "questionText": "What is the primary rhetorical appeal used in the following passage? \n'To those people in the huts and villages of half the globe struggling to break the bonds of mass misery, we pledge our best efforts to help them help themselves, for whatever period is required -- not because the Communists may be doing it, not because we seek their votes, but because it is right.' ",
-            "choices": [
-              "A) Ethos, or appeal based on character or credibility",
-              "B) Pathos, or emotional appeal",
-              "C) Logos, or logical appeal",
-              "D) All of the above"
-            ],
-            "correctAnswer": "B",
-            "explanationText": "Kennedy invokes pathos by emphasizing the suffering of people across the globe and appealing to people's sense of compassion, justice, and responsibility to help others.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RI.6",
-                  "description": "Analyze an author’s purpose/perspective and evaluate the effectiveness of rhetoric."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.4.1",
-                    "description": "Author’s perspective/purpose & rhetoric: evaluate how effectively rhetoric advances a viewpoint."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "section": {
-        "name": "Part III",
-        "label": "Analyzing Literature/Multiple Mediums",
-        "title": "Sonnet V",
-        "directions": "Read the following poem and view the illustration. Then answer the questions that follow. ",
-        "author": "William Shakespeare",
-        "pictureURL": "test_pictures/all-is-vanity.png",
-        "passage": "Those hours, that with gentle work did frame\nThe lovely gaze where every eye doth dwell,\nWill play the tyrants(1) to the very same\nAnd that unfair which fairly doth excel:\nFor never-resting time leads summer on\nTo hideous winter and confounds(2) him there;\nSap cheque'd with frost and lusty leaves quite gone,\nBeauty o'ersnow'd and bareness every where:\nThen, were not summer's distillation(3) left,\nA liquid prisoner pent in walls of glass,\nBeauty's effect with beauty were bereft,(4)\nNor it nor no remembrance what it was:\nBut flowers distill'd though they with winter meet,\nLeese(5) but their show; their substance still lives\nsweet.\n\nVocabulary definitions:\n(1) Tyrant: a cruel and oppressive ruler\n(2) Confounds: an archaic word meaning to overthrow or destroy\n(3) Distillation: in this case, refers to the process of extracting perfume from flowers.\n(4) Bereft: to be deprived of or be lacking of something\n(5) Leese: to lose",
-        "questions": [
-          {
-            "number": 23,
-            "questionText": "What is the overall theme of the poem? Choose the best response below.",
-            "choices": [
-              "A) Beauty is easily destroyed.",
-              "B) Nature can be both beautiful and deadly.",
-              "C) Though time destroys outer beauty, the true inner beauty persists.",
-              "D) Possessing true beauty can be both a blessing and a curse."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "The poem emphasizes that while time diminishes outward beauty, essence or inner worth (distillation) endures.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.2",
-                  "description": "Determine a theme/central idea in literature and explain how it develops over the course of the text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.2.1",
-                    "description": "Theme in literature: analyze development of universal themes across texts from different times/places/cultures."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 24,
-            "questionText": "Which of the following lines from the poem best help to support your response to question 23?",
-            "choices": [
-              "A) “Those hours, that with gentle work did frame / The lovely gaze where every eye doth dwell”",
-              "B) “For never-resting time leads summer on / To hideous winter and confounds him there”",
-              "C) “Beauty's effect with beauty were bereft, / Nor it nor no remembrance what it was”",
-              "D) “But flowers distill'd though they with winter meet, / Leese but their show; their substance still lives sweet”"
-            ],
-            "correctAnswer": "D",
-            "explanationText": "The distillation metaphor shows that inner essence remains, even as physical beauty fades.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.1",
-                  "description": "Cite strong textual evidence and explain how it supports your analysis of a literary text."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.OE.5",
-                    "description": "Cite evidence to explain and justify reasoning."
-                  },
-                  {
-                    "code": "ELA.E2.AOR.6.1",
-                    "description": "Summarize/paraphrase grade-level content to support comprehension."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 25,
-            "questionText": "How does the author use figurative language to develop the theme?",
-            "choices": [
-              "A) He uses the extended metaphor of seasons as a comparison to growing old.",
-              "B) He uses multiple hyperboles to heighten the reader’s fear of growing old.",
-              "C) He uses similes to compare life to nature and everyday objects.",
-              "D) He personifies aging to show it has both good and bad qualities as humans do."
-            ],
-            "correctAnswer": "A",
-            "explanationText": "The sonnet compares beauty’s fading to seasonal change — summer to winter — showing how time erodes outer beauty.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.4",
-                  "description": "Interpret word choice and figurative language; analyze how it shapes meaning and tone in literature."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.8.1",
-                    "description": "Word relationships/nuance: interpret figurative/connotative/technical language and its impact on meaning/tone."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 26,
-            "questionText": "Which of the following choices best paraphrase the first three lines of the poem?",
-            "choices": [
-              "A) The same people who admire and commend someone’s looks one day will be the first to criticize and denounce them on another.",
-              "B) While time makes some people admiringly beautiful, it turns others into tyrannical bullies.",
-              "C) While the passage of time helps to develop one’s beauty, it will also ultimately steal that beauty away.",
-              "D) Some people admire others’ beauty, while other people are jealous of it."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "The opening lines describe how time fashions beauty but inevitably strips it away.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.5",
-                  "description": "Analyze how a text’s structure, order of events, and time shifts (e.g., flashback) create effects."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.5.1",
-                    "description": "Literary structure: how order/time (flashback, foreshadowing, pacing) create effects (mystery, tension, surprise)."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 27,
-            "questionText": "Which of the following statements reflect a central idea of BOTH the poem and the painting?",
-            "choices": [
-              "A) Death is inevitable.",
-              "B) Physical beauty will not last forever.",
-              "C) Vanity or over obsession on appearance leads to one’s downfall.",
-              "D) True inner beauty transcends time."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "Both works illustrate the transience of physical beauty — the sonnet through time/season imagery, the drawing through the skull illusion.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "RL.7",
-                  "description": "Analyze how two or more formats/mediums (text, image, film) convey themes/ideas."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.AOR.10.1",
-                    "description": "Multimedia: analyze pros/cons of different formats (print, digital, image, film, performance)."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "section": {
-        "name": "Part IV",
-        "label": "Conventions of Language",
-        "directions": "Choose the correct response for each question. ",
-        "questions": [
-          {
-            "number": 28,
-            "questionText": "Knowing that they always sell out fast_____ we baked six dozen cookies.",
-            "choices": [
-              "A) ;",
-              "B) ,",
-              "C) .",
-              "D) :"
-            ],
-            "correctAnswer": "B",
-            "explanationText": "A comma correctly separates the introductory clause from the main clause.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.2",
-                  "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 29,
-            "questionText": "Justin was excited about inviting friends over, eating a good meal, and _____________________ .",
-            "choices": [
-              "A) a game of cards.",
-              "B) to play cards.",
-              "C) playing a game of cards.",
-              "D) play a game of cards."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "Parallel structure requires all items in the list to be gerunds: inviting, eating, playing.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.1",
-                  "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 30,
-            "questionText": "Which one of the following choices is punctuated correctly?",
-            "choices": [
-              "A) The current city policy on housing is incomplete as it stands. Which is why we believe the proposed amendments should be passed.",
-              "B) The current city policy on housing is incomplete as it stands, which is why we believe the proposed amendments should be passed.",
-              "C) The current city policy on housing is incomplete as it stands; which is why we believe the proposed amendments should be passed.",
-              "D) The current city policy on housing is incomplete as it stands: which is why we believe the proposed amendments should be passed."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "Sentence B uses a comma and dependent clause correctly; the others misuse punctuation.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.2",
-                  "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 31,
-            "questionText": "Which one of the following sentences is spelled correctly throughout?",
-            "choices": [
-              "A) Bill past by the construction cite everyday on his bike.",
-              "B) Bill passed by the construction sight every day on his bike.",
-              "C) Bill passed by the construction site every day on his bike.",
-              "D) Bill passed by the construction cite every day on his bike."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "‘Passed,’ ‘site,’ and ‘every day’ are the correct spellings/usage.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.2",
-                  "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 32,
-            "questionText": "Which one of the following sentences uses correct punctuation and parallel structure?",
-            "choices": [
-              "A) The forecast predicts snow for tonight, please drive slowly, safely and with caution.",
-              "B) The forecast predicts snow for tonight; please drive slowly, safely and with caution.",
-              "C) The forecast predicts snow for tonight; please drive slowly, cautiously and safely.",
-              "D) The forecast predicts snow for tonight: please drive slowly, safely and cautiously."
-            ],
-            "correctAnswer": "C",
-            "explanationText": "A semicolon correctly joins two independent clauses, and the list structure is considered parallel structure - and it just feels smoother.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.1",
-                  "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 33,
-            "questionText": "Neither her friends nor her teacher _______________ the problem.",
-            "choices": [
-              "A) Realizes",
-              "B) Realize",
-              "C) Realistic",
-              "D) Realistically"
-            ],
-            "correctAnswer": "A",
-            "explanationText": "With 'Neither...nor,' the verb agrees with the nearer subject 'teacher' (singular): realizes.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.1",
-                  "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 34,
-            "questionText": "Which one of the following sentences is punctuated correctly?",
-            "choices": [
-              "A) The following students are to report to the Dean's office: Jones, Murphy, Jackson, and Weidner.",
-              "B) The following students are to report to the Dean's office; Jones, Murphy, Jackson, and Weidner.",
-              "C) The following students are to report to the Dean's office, Jones, Murphy, Jackson, and Weidner.",
-              "D) The following students are to report to the Dean's office. Jones, Murphy, Jackson, and Weidner."
-            ],
-            "correctAnswer": "A",
-            "explanationText": "A colon is correct before a list following an independent clause.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.2",
-                  "description": "Demonstrate command of capitalization, punctuation (semicolon, colon, dash, comma), and spelling."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
-              }
-            }
-          },
-          {
-            "number": 35,
-            "questionText": "Which one of the following sentences is written in active voice?",
-            "choices": [
-              "A) With five seconds left in the game, an illegal time-out was called by one of the players",
-              "B) The construction crew built the house within five months",
-              "C) The car was being cleaned by its owner.",
-              "D) Before the semester was over, the new nursing program had been approved by the Curriculum Committee and the Board of Trustees."
-            ],
-            "correctAnswer": "B",
-            "explanationText": "In B, the subject (crew) performs the action (built), making it active voice.",
-            "standards": {
-              "common_core": [
-                {
-                  "code": "L.1",
-                  "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
-                }
-              ],
-              "states": {
-                "SC": [
-                  {
-                    "code": "ELA.E2.C.4.1",
-                    "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
-                  }
-                ],
-                "NC": [],
-                "MO": []
+                "correctAnswer": "B",
+                "explanationText": "In B, the subject (crew) performs the action (built), making it active voice.",
+                "standards": {
+                    "common_core": [
+                    {
+                        "code": "L.1",
+                        "description": "Demonstrate command of grammar/usage and varied sentence structures (agreement, parallelism, voice)."
+                    }
+                    ],
+                    "states": {
+                    "SC": [
+                        {
+                        "code": "ELA.E2.C.4.1",
+                        "description": "Grammar & conventions: capitalization; semicolons/colons/dashes; conjunctive adverbs; verb mood/tense/voice; fix fragments/run‑ons & parallel structure; edit for publication."
+                        }
+                    ],
+                    "NC": [],
+                    "MO": []
               }
             }
           }
