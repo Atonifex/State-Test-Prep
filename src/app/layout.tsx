@@ -44,7 +44,7 @@ export default function RootLayout({
                   <LoginButton />
                 </div>
               </header>
-              <main className="max-w-6xl mx-auto px-4 py-6">
+              <main>
                 {children}
               </main>
             </div>

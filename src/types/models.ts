@@ -27,6 +27,31 @@ export interface Standard extends StandardRef {
   gradeBand?: string | null;
 }
 
+// New types to match your JSON structure
+export interface TestSection {
+  name: string; // e.g., "Part I"
+  directions: string;
+  label: string; // e.g., "Analyzing Literature/Short Story"
+  title?: string; // e.g., "The Story of an Hour"
+  subtitle?: string;
+  author?: string;
+  year?: number;
+  context?: string;
+  pictureURL?: string;
+  passage?: string; // The main reading passage
+  questions: TestQuestion[];
+}
+
+export interface TestQuestion {
+  number: number;
+  questionText: string;
+  choices: string[];
+  correctAnswer: string | string[]; // Can be single answer or array for multi-select
+  explanationText: string;
+  standards: string[];
+}
+
+// Legacy types for demo questions - keeping for backward compatibility
 export interface McqQuestion extends StandardRef {
   id: string;
   type: 'mcq';
@@ -34,9 +59,8 @@ export interface McqQuestion extends StandardRef {
   passage?: string | null;
   question: string;
   choices: string[];
-  answer: string; // 'A' | 'B' | 'C' | 'D' or index string
-  explanation?: string | null;
-  assets?: { type: 'image' | 'audio'; url: string }[] | null;
+  answer: string;
+  explanation: string;
 }
 
 export interface EssayQuestion extends StandardRef {
@@ -44,8 +68,7 @@ export interface EssayQuestion extends StandardRef {
   type: 'essay';
   difficulty: Difficulty;
   prompt: string;
-  wordLimit: number; // default 500
-  explanation?: string | null; // rubric/exemplar
+  wordLimit: number;
 }
 
 export type Question = McqQuestion | EssayQuestion;
@@ -64,21 +87,19 @@ export interface Attempt {
   // Timing (all in milliseconds epoch for consistency)
   startedAt: number; // when question was first shown
   submittedAt: number; // when answer was submitted  
-  timeSpentMs: number; // calculated: submittedAt - startedAt
+  timeSpentMs: number; // calculated: submittedAt - startedAtMs
   
   // Answer data
   userAnswer: string; // selected choice (A/B/C/D) or essay text
-  isCorrect: boolean | null; // true/false for MCQ, null for essay
-  selectedChoice?: string | null; // for MCQ: A/B/C/D
-  freeResponse?: string | null; // for essay: full text
+  isCorrect: boolean | null; // null for essay
   
-  // Interaction tracking
-  explanationViewed?: boolean;
-  tutorUsed?: boolean;
+  // UI state
+  explanationViewed: boolean;
+  tutorUsed: boolean;
   
-  // Assignment context (optional)
-  classroomId?: string | null;
-  assignmentId?: string | null;
+  // Assignment tracking
+  classroomId: string | null;
+  assignmentId: string | null;
   
   // Firestore timestamp
   createdAt: number; // epoch ms, will be overwritten with serverTimestamp() in Firestore
@@ -87,26 +108,34 @@ export interface Attempt {
 export interface Classroom {
   id: string;
   name: string;
-  districtId: string;
-  schoolId: string;
   teacherId: string;
+  schoolId: string;
+  districtId: string;
   subject: string;
   state: string;
   testId: string;
+  studentIds: string[];
+  createdAt: number;
+  assignments: Assignment[];
 }
 
 export interface Assignment {
   id: string;
+  title: string;
+  description: string;
   classroomId: string;
-  name: string;
+  teacherId: string;
   standardIds: string[];
-  startDate: number; // ms epoch
-  dueDate: number; // ms epoch
-  timePerDayMin?: number | null;
-  targetQuestions?: number | null;
+  dueDate: number | null;
+  createdAt: number;
+  isActive: boolean;
 }
 
+// Bundle type for demo questions
 export interface DemoQuestionBundle {
+  state: string;
+  testId: string;
+  subject: string;
   standardId: string;
   questions: Question[];
 } 

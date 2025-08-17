@@ -1,0 +1,32 @@
+/*Use these colors for the UI themes, with the primary.main as the main color.
+primary: {
+      main: '#f16522', // My orange
+      dark: '#d1551c',
+    },
+    secondary: {
+      main: '#007bff', // My blue
+      dark: '#0056b3',
+    },
+    custom: {
+      orange: '#f16522', //Not used - instead do primary.main
+      darkOrange: '#d1551c', //Not used - instead use primary.dark
+      veryLightOrange: 'rgba(241, 101, 34, 0.08)', //used for selected answer in DiagnosticTest.tsx
+      lightGrey: '#e0e0e0',
+      darkGrey: '#2e2e2e',
+      green: '#4caf50',
+      darkgreen: '#388e3c',
+      red: '#f44336', //or #fd7272 for a light red, almost pink which doesn't feel so punishing
+      lightblue: '#63d5fe',
+      yellow: '#f9f919',
+      amber: "#FFA000", // Added amber color for better visibility
+      beige: "#f7f5f0",
+      beigeDarkContrast: 'rgba(255, 224, 178, 0.35)', // Amber tint at low opacity
+      beigeLightContrast: '#f9f9f7'
+    },
+    background: {
+      default: '#ffffff',
+      paper: '#f9f9f9',
+    },
+    text: {
+      primary: '#0A0A0A',
+    }*/
