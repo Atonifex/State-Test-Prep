@@ -114,18 +114,16 @@ export function VoiceTutor({ questionContext }: VoiceTutorProps) {
     resetInactivityTimer(); // Reset timer on user interaction
     
     const contextualMessage = `
-QUESTION CONTEXT: ${questionContext}
-
-STUDENT QUESTION: ${text}
-
-Please provide a helpful, encouraging explanation focused on helping the student understand the concept. Ask guiding questions to help the student think through the problem. If they ask for the answer, you can give it. Keep your response to 2-3 sentences maximum, and be fun, engaging, encouraging, and humorous.`;
-    
+    QUESTION CONTEXT: ${questionContext}
+    STUDENT QUESTION: ${text}
+    Please provide a helpful, encouraging explanation focused on helping the student understand the concept. Ask guiding questions to help the student think through the problem. If they ask for the answer, you can give it. Keep your response to 2-3 sentences maximum, and be fun, engaging, encouraging, and humorous.`;
     sendTextAndStartResponse(contextualMessage);
   };
 
   // Dragging handlers
   const handleMouseDown = (e: React.MouseEvent) => {
-    if (isExpanded) return;
+    if (isExpanded) return; // Don't drag when expanded
+    
     setIsDragging(true);
     const rect = buttonRef.current?.getBoundingClientRect();
     if (rect) {
@@ -209,8 +207,9 @@ Please provide a helpful, encouraging explanation focused on helping the student
 
   const handleToggleExpanded = () => {
     if (!isExpanded && !state.connected) {
+      // Auto-connect when expanding for the first time
       connect();
-      resetInactivityTimer();
+      resetInactivityTimer(); // Start timer when connecting
     }
     setIsExpanded(!isExpanded);
   };
@@ -308,7 +307,7 @@ Please provide a helpful, encouraging explanation focused on helping the student
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/10 z-50 flex items-start justify-center pt-8"
+            className="fixed inset-0 bg-black/1 z-50 flex items-start justify-center pt-8"
             style={{ zIndex: 1001 }}
           >
             <motion.div
@@ -322,7 +321,7 @@ Please provide a helpful, encouraging explanation focused on helping the student
                 width: `${modalSize.width}vw`, 
                 height: `${modalSize.height}vh`,
                 maxWidth: '95vw',
-                maxHeight: '80vh',
+                maxHeight: '65vh',
                 minWidth: '40vw',
                 minHeight: '20vh'
               }}
